@@ -1,0 +1,163 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  appearance: none;
+  font-smoothing: antialiased;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.normal {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  margin: 20px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  height: 400px;
+  transition: all 0.3s;
+}
+
+.title {
+  font: inherit;
+  margin: 100px 0 80px 0;
+  font-size: 80px;
+  display: block;
+  text-align: center;
+  color: #CDCCE4;
+}
+
+.todoListMenu:hover {
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.todoListMenu {
+  min-width: 0px;
+  max-width: 0px;
+  width: 0px;
+  border-right: solid #999999 5px;
+  background: rgba(242, 242, 242, 0.2);
+  height: 390px;
+  vertical-align: top;
+  padding-top: 10px;
+  overflow-x: hidden;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.todoListMenu ul{
+    list-style-type: none;
+    padding: 0 10px 0 0;
+}
+.todoListMenu li{
+    text-align: left;
+    line-height: 0em;
+    width: 200px;
+}
+
+.todoListMenu .flexbox{
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  border: none;
+  background: none;
+  font: inherit;
+  font-style: italic;
+  color: rgba(0,0,0,0.4);
+  outline: none;
+  vertical-align: top;
+}
+
+.content {
+  flex: 20;
+}
+
+form {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.destroy {
+  flex: 1;
+  text-transform: uppercase;
+  display: block;
+  opacity: 0;
+  margin-left: auto 5px auto auto;
+  padding-right: 10px;
+  color: rgba(154, 4, 4, 0.4);
+  font-size: 20px;
+  text-align: right;
+  transition: all 0.4s;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.destroy button::after{
+  cursor: pointer;
+  content: 'x';
+}
+
+li:hover .destroy{
+  opacity: 1;
+}
+.displayTodoList{
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: scroll;
+  height: 400px;
+  padding: 0 0px 0px 10px;
+}
+
+.displayTodoList ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.displayTodoList li{
+  line-height: 0em;
+}
+
+.displayTodoList div{
+  display: inline;
+}
+.displayTodoList li p{
+  display: inline;
+  line-height: 1em;
+  margin-left: 10px;
+}

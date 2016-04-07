@@ -2,12 +2,14 @@ var rucksack = require('rucksack-css')
 var webpack = require('webpack')
 var path = require('path')
 
+var entryFile =  process.env.ENTRY_FILE ? process.env.ENTRY_FILE : './index.js'
+
 module.exports = {
   context: path.join(__dirname, './client'),
   entry: {
-    jsx: './index.js',
+    jsx: entryFile,
     html: './index.html',
-    vendor: ['react']
+    vendor: ['react', 'two-way-rest', 'redux', 'redux-thunk', 'immutable']
   },
   output: {
     path: path.join(__dirname, './static'),
@@ -33,14 +35,26 @@ module.exports = {
         exclude: /client/,
         loader: 'style!css'
       },
+      { 
+          test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, 
+          loader: "url-loader?limit=10000&minetype=application/font-woff"
+      },
+      { 
+          test: /\.(ttf|eot|svg)/, 
+          loader: "file-loader" 
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loaders: [
-          'react-hot',
           'babel-loader'
         ]
       },
+      {
+        test: /\.less$/,
+        exclude: /client/,
+        loader: 'style!css!less'
+      }
     ],
   },
   resolve: {
