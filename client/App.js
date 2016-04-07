@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import configure from './store'
 import {setAddress, setStore} from 'two-way-rest';
 
-setAddress('http://localhost:8000');
+setAddress('http://localhost:8888');
 
 const store = configure()
 const history = syncHistoryWithStore(browserHistory, store)
