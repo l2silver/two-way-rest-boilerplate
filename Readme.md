@@ -1,7 +1,8 @@
-
 # Two-Way-Rest Boilerplate
-
-A boilerplate of things that mostly shouldn't exist.
+A Boilerplate for the two-way-rest react-redux plugin
+http://github.com/l2silver/two-way-rest  
+*A modified version of TJ's frontend boilerplate:*
+https://github.com/tj/frontend-boilerplate
 
 ## Setup
 
@@ -19,7 +20,8 @@ $ npm start
 
 ```
 $ npm run startS && npm run start:2
-
+```
 # License
 
-MIT
+MIT  
+
