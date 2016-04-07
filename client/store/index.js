@@ -1,3 +1,4 @@
+
 import { createStore, applyMiddleware } from 'redux'
 import rootReducer from '../reducers'
 export default function configure(initialState) {
@@ -6,7 +7,6 @@ export default function configure(initialState) {
     : createStore
 
   const createStoreWithMiddleware = applyMiddleware(
-
   )(create)
 
   const store = createStoreWithMiddleware(rootReducer, initialState)

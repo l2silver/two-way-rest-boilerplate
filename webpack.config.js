@@ -2,6 +2,7 @@ var rucksack = require('rucksack-css')
 var webpack = require('webpack')
 var path = require('path')
 
+
 var entryFile =  process.env.ENTRY_FILE ? process.env.ENTRY_FILE : './index.js'
 
 module.exports = {
@@ -35,6 +36,7 @@ module.exports = {
         exclude: /client/,
         loader: 'style!css'
       },
+
       { 
           test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, 
           loader: "url-loader?limit=10000&minetype=application/font-woff"
