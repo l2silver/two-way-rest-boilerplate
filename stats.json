@@ -2,614 +2,634 @@ http://localhost:3333/
 webpack result is served from /
 content is served from ./client
 404s will fallback to /index.html
-Hash: [1m82e0fb593871274b09a9[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m8026[22mms
-               [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-          [1m[32mindex.html[39m[22m  925 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
-           [1m[32mbundle.js[39m[22m  479 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-    [1m[32mvendor.bundle.js[39m[22m     1.7 MB       [1m2[22m  [1m[32m[emitted][39m[22m  vendor
-       [1m[32mbundle.js.map[39m[22m   86 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32mvendor.bundle.js.map[39m[22m    1.94 MB       [1m2[22m  [1m[32m[emitted][39m[22m  vendor
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}[1m[32m [rendered][39m[22m
+Hash: [1m67bef3137e7e10e6c32e[22m
+Version: webpack [1m1.12.15[22m
+Time: [1m9680[22mms
+                                 [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+                            [1m[32mindex.html[39m[22m  879 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+  [1m[32m32400f4e08932a94d8bfd2422702c446.eot[39m[22m    70.8 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mdb812d8a70a4e88e888744c1c9a27e89.woff2[39m[22m    66.6 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+ [1m[32ma35720c2fed2c7f043bc7e4ffb45e073.woff[39m[22m    83.6 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+  [1m[32ma3de2170e4e9df77161ea5d3f31b2668.ttf[39m[22m     142 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+  [1m[32mf775f9cca88e21d45bebe185b27c0e5b.svg[39m[22m     366 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+                             [1m[32mbundle.js[39m[22m    1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+                         [1m[32mbundle.js.map[39m[22m    2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
     [0] [1mmulti html[22m 52 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-   [75] [1m./client/index.html[22m 56 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 52 bytes {[1m[33m2[39m[22m}[1m[32m [rendered][39m[22m
-    [0] [1mmulti jsx[22m 52 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB[1m[32m [rendered][39m[22m
-    [0] [1mmulti vendor[22m 88 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [1] [1m(webpack)-dev-server/client?http://localhost:3333[22m 2.67 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [2] [1m(webpack)/~/node-libs-browser/~/url/url.js[22m 22.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [3] [1m(webpack)/~/node-libs-browser/~/url/~/punycode/punycode.js[22m 14.6 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [4] [1m(webpack)/buildin/module.js[22m 251 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [5] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/index.js[22m 127 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [6] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/decode.js[22m 2.4 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [7] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/encode.js[22m 2.09 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [8] [1m(webpack)-dev-server/~/sockjs-client/lib/entry.js[22m 244 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-    [9] [1m(webpack)-dev-server/~/sockjs-client/lib/transport-list.js[22m 613 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [10] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/websocket.js[22m 2.68 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [11] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/event.js[22m 2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [12] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/random.js[22m 746 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [13] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser-crypto.js[22m 438 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [14] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/url.js[22m 975 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [15] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/index.js[22m 8.09 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [16] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/requires-port/index.js[22m 753 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [17] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/lolcation.js[22m 1.58 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [18] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/querystringify/index.js[22m 1.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [19] [1m(webpack)-dev-server/~/sockjs-client/~/debug/browser.js[22m 3.76 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [20] [1m(webpack)-dev-server/~/sockjs-client/~/debug/debug.js[22m 4.1 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [21] [1m(webpack)-dev-server/~/sockjs-client/~/debug/~/ms/index.js[22m 2.33 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [22] [1m(webpack)-dev-server/~/sockjs-client/~/inherits/inherits_browser.js[22m 672 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [23] [1m(webpack)-dev-server/~/sockjs-client/lib/event/emitter.js[22m 1.11 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [24] [1m(webpack)-dev-server/~/sockjs-client/lib/event/eventtarget.js[22m 1.75 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [25] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/websocket.js[22m 58 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [26] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-streaming.js[22m 1.25 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [27] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/ajax-based.js[22m 1.31 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [28] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/sender-receiver.js[22m 1.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [29] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/buffered-sender.js[22m 2.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [30] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/polling.js[22m 1.32 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [31] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/xhr.js[22m 1.58 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [32] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-cors.js[22m 343 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [33] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/abstract-xhr.js[22m 4.67 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [34] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-local.js[22m 352 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [35] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser.js[22m 560 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [36] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-streaming.js[22m 984 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [37] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xdr.js[22m 2.42 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [38] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/eventsource.js[22m 766 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [39] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/eventsource.js[22m 1.58 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [40] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/eventsource.js[22m 37 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [41] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/iframe-wrap.js[22m 981 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [42] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/iframe.js[22m 3.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [43] [1m(webpack)-dev-server/~/sockjs-client/~/json3/lib/json3.js[22m 43.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [44] [1m(webpack)/buildin/amd-options.js[22m 43 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [45] [1m(webpack)-dev-server/~/sockjs-client/lib/version.js[22m 25 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [46] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/iframe.js[22m 4.95 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [47] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/object.js[22m 532 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [48] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/htmlfile.js[22m 710 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [49] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/htmlfile.js[22m 2.17 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [50] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-polling.js[22m 894 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [51] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-polling.js[22m 712 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [52] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/jsonp-polling.js[22m 1.02 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [53] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/jsonp.js[22m 5.49 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [54] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/jsonp.js[22m 2.46 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [55] [1m(webpack)-dev-server/~/sockjs-client/lib/main.js[22m 11.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [56] [1m(webpack)-dev-server/~/sockjs-client/lib/shims.js[22m 18.2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [57] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/escape.js[22m 2.31 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [58] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/transport.js[22m 1.35 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [59] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/log.js[22m 386 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [60] [1m(webpack)-dev-server/~/sockjs-client/lib/event/event.js[22m 485 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [61] [1m(webpack)-dev-server/~/sockjs-client/lib/location.js[22m 177 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [62] [1m(webpack)-dev-server/~/sockjs-client/lib/event/close.js[22m 295 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [63] [1m(webpack)-dev-server/~/sockjs-client/lib/event/trans-message.js[22m 292 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [64] [1m(webpack)-dev-server/~/sockjs-client/lib/info-receiver.js[22m 2.22 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [65] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-fake.js[22m 456 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [66] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe.js[22m 1.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [67] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe-receiver.js[22m 791 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [68] [1m(webpack)-dev-server/~/sockjs-client/lib/info-ajax.js[22m 1.03 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [69] [1m(webpack)-dev-server/~/sockjs-client/lib/iframe-bootstrap.js[22m 2.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [70] [1m(webpack)-dev-server/~/sockjs-client/lib/facade.js[22m 723 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [71] [1m(webpack)-dev-server/~/strip-ansi/index.js[22m 161 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [72] [1m(webpack)-dev-server/~/strip-ansi/~/ansi-regex/index.js[22m 135 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [73] [1m(webpack)/hot/dev-server.js[22m 1.85 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [74] [1m(webpack)/hot/log-apply-result.js[22m 813 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [77] [1m./~/react/react.js[22m 56 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [78] [1m./~/react/lib/React.js[22m 1.49 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [79] [1m./~/react/lib/ReactDOM.js[22m 3.71 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [80] [1m./~/react/lib/ReactCurrentOwner.js[22m 653 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [81] [1m./~/react/lib/ReactDOMTextComponent.js[22m 4.32 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [82] [1m./~/react/lib/DOMChildrenOperations.js[22m 5 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [83] [1m./~/react/lib/Danger.js[22m 6.96 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [84] [1m./~/react/~/fbjs/lib/ExecutionEnvironment.js[22m 1.09 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [85] [1m./~/react/~/fbjs/lib/createNodesFromMarkup.js[22m 2.71 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [86] [1m./~/react/~/fbjs/lib/createArrayFromMixed.js[22m 2.36 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [87] [1m./~/react/~/fbjs/lib/toArray.js[22m 1.98 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [88] [1m./~/react/~/fbjs/lib/invariant.js[22m 1.51 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [89] [1m./~/react/~/fbjs/lib/getMarkupWrap.js[22m 3.06 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [90] [1m./~/react/~/fbjs/lib/emptyFunction.js[22m 1.09 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [91] [1m./~/react/lib/ReactMultiChildUpdateTypes.js[22m 861 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [92] [1m./~/react/~/fbjs/lib/keyMirror.js[22m 1.27 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [93] [1m./~/react/lib/ReactPerf.js[22m 2.51 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [94] [1m./~/react/lib/setInnerHTML.js[22m 3.35 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [95] [1m./~/react/lib/setTextContent.js[22m 1.2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [96] [1m./~/react/lib/escapeTextContentForBrowser.js[22m 849 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [97] [1m./~/react/lib/DOMPropertyOperations.js[22m 7.88 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [98] [1m./~/react/lib/DOMProperty.js[22m 9.57 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-   [99] [1m./~/react/lib/quoteAttributeValueForBrowser.js[22m 746 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [100] [1m./~/react/~/fbjs/lib/warning.js[22m 1.77 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [101] [1m./~/react/lib/ReactComponentBrowserEnvironment.js[22m 1.26 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [102] [1m./~/react/lib/ReactDOMIDOperations.js[22m 3.29 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [103] [1m./~/react/lib/ReactMount.js[22m 36.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [104] [1m./~/react/lib/ReactBrowserEventEmitter.js[22m 12.4 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [105] [1m./~/react/lib/EventConstants.js[22m 2.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [106] [1m./~/react/lib/EventPluginHub.js[22m 9.22 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [107] [1m./~/react/lib/EventPluginRegistry.js[22m 8.41 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [108] [1m./~/react/lib/EventPluginUtils.js[22m 6.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [109] [1m./~/react/lib/ReactErrorUtils.js[22m 2.27 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [110] [1m./~/react/lib/accumulateInto.js[22m 1.74 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [111] [1m./~/react/lib/forEachAccumulated.js[22m 893 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [112] [1m./~/react/lib/ReactEventEmitterMixin.js[22m 1.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [113] [1m./~/react/lib/ViewportMetrics.js[22m 638 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [114] [1m./~/react/lib/Object.assign.js[22m 1.26 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [115] [1m./~/react/lib/isEventSupported.js[22m 1.97 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [116] [1m./~/react/lib/ReactDOMFeatureFlags.js[22m 458 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [117] [1m./~/react/lib/ReactElement.js[22m 8.07 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [118] [1m./~/react/lib/canDefineProperty.js[22m 629 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [119] [1m./~/react/lib/ReactEmptyComponentRegistry.js[22m 1.38 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [120] [1m./~/react/lib/ReactInstanceHandles.js[22m 10.6 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [121] [1m./~/react/lib/ReactRootIndex.js[22m 723 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [122] [1m./~/react/lib/ReactInstanceMap.js[22m 1.25 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [123] [1m./~/react/lib/ReactMarkupChecksum.js[22m 1.39 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [124] [1m./~/react/lib/adler32.js[22m 1.2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [125] [1m./~/react/lib/ReactReconciler.js[22m 3.55 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [126] [1m./~/react/lib/ReactRef.js[22m 2.34 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [127] [1m./~/react/lib/ReactOwner.js[22m 3.45 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [128] [1m./~/react/lib/ReactUpdateQueue.js[22m 10.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [129] [1m./~/react/lib/ReactUpdates.js[22m 8.54 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [130] [1m./~/react/lib/CallbackQueue.js[22m 2.44 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [131] [1m./~/react/lib/PooledClass.js[22m 3.55 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [132] [1m./~/react/lib/Transaction.js[22m 9.55 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [133] [1m./~/react/~/fbjs/lib/emptyObject.js[22m 482 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [134] [1m./~/react/~/fbjs/lib/containsNode.js[22m 1.43 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [135] [1m./~/react/~/fbjs/lib/isTextNode.js[22m 628 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [136] [1m./~/react/~/fbjs/lib/isNode.js[22m 712 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [137] [1m./~/react/lib/instantiateReactComponent.js[22m 4.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [138] [1m./~/react/lib/ReactCompositeComponent.js[22m 27.5 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [139] [1m./~/react/lib/ReactComponentEnvironment.js[22m 1.67 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [140] [1m./~/react/lib/ReactPropTypeLocations.js[22m 549 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [141] [1m./~/react/lib/ReactPropTypeLocationNames.js[22m 611 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [142] [1m./~/react/lib/shouldUpdateReactComponent.js[22m 1.49 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [143] [1m./~/react/lib/ReactEmptyComponent.js[22m 1.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [144] [1m./~/react/lib/ReactNativeComponent.js[22m 3.02 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [145] [1m./~/react/lib/validateDOMNesting.js[22m 13.1 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [146] [1m./~/react/lib/ReactDefaultInjection.js[22m 3.99 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [147] [1m./~/react/lib/BeforeInputEventPlugin.js[22m 14.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [148] [1m./~/react/lib/EventPropagators.js[22m 5.22 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [149] [1m./~/react/lib/FallbackCompositionState.js[22m 2.49 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [150] [1m./~/react/lib/getTextContentAccessor.js[22m 994 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [151] [1m./~/react/lib/SyntheticCompositionEvent.js[22m 1.16 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [152] [1m./~/react/lib/SyntheticEvent.js[22m 5.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [153] [1m./~/react/lib/SyntheticInputEvent.js[22m 1.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [154] [1m./~/react/~/fbjs/lib/keyOf.js[22m 1.11 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [155] [1m./~/react/lib/ChangeEventPlugin.js[22m 11.5 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [156] [1m./~/react/lib/getEventTarget.js[22m 930 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [157] [1m./~/react/lib/isTextInputElement.js[22m 1.03 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [158] [1m./~/react/lib/ClientReactRootIndex.js[22m 551 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [159] [1m./~/react/lib/DefaultEventPluginOrder.js[22m 1.26 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [160] [1m./~/react/lib/EnterLeaveEventPlugin.js[22m 3.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [161] [1m./~/react/lib/SyntheticMouseEvent.js[22m 2.2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [162] [1m./~/react/lib/SyntheticUIEvent.js[22m 1.64 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [163] [1m./~/react/lib/getEventModifierState.js[22m 1.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [164] [1m./~/react/lib/HTMLDOMPropertyConfig.js[22m 7.63 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [165] [1m./~/react/lib/ReactBrowserComponentMixin.js[22m 1.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [166] [1m./~/react/lib/findDOMNode.js[22m 2.17 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [167] [1m./~/react/lib/ReactDefaultBatchingStrategy.js[22m 1.92 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [168] [1m./~/react/lib/ReactDOMComponent.js[22m 36.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [169] [1m./~/react/lib/AutoFocusUtils.js[22m 816 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [170] [1m./~/react/~/fbjs/lib/focusNode.js[22m 725 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [171] [1m./~/react/lib/CSSPropertyOperations.js[22m 5.71 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [172] [1m./~/react/lib/CSSProperty.js[22m 3.5 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [173] [1m./~/react/~/fbjs/lib/camelizeStyleName.js[22m 1.03 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [174] [1m./~/react/~/fbjs/lib/camelize.js[22m 729 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [175] [1m./~/react/lib/dangerousStyleValue.js[22m 1.93 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [176] [1m./~/react/~/fbjs/lib/hyphenateStyleName.js[22m 1 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [177] [1m./~/react/~/fbjs/lib/hyphenate.js[22m 822 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [178] [1m./~/react/~/fbjs/lib/memoizeStringOnly.js[22m 778 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [179] [1m./~/react/lib/ReactDOMButton.js[22m 1.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [180] [1m./~/react/lib/ReactDOMInput.js[22m 5.74 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [181] [1m./~/react/lib/LinkedValueUtils.js[22m 5.18 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [182] [1m./~/react/lib/ReactPropTypes.js[22m 12.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [183] [1m./~/react/lib/getIteratorFn.js[22m 1.17 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [184] [1m./~/react/lib/ReactDOMOption.js[22m 2.82 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [185] [1m./~/react/lib/ReactChildren.js[22m 5.83 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [186] [1m./~/react/lib/traverseAllChildren.js[22m 6.9 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [187] [1m./~/react/lib/ReactDOMSelect.js[22m 6.11 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [188] [1m./~/react/lib/ReactDOMTextarea.js[22m 4.35 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [189] [1m./~/react/lib/ReactMultiChild.js[22m 14.7 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [190] [1m./~/react/lib/ReactChildReconciler.js[22m 4.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [191] [1m./~/react/lib/flattenChildren.js[22m 1.65 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [192] [1m./~/react/~/fbjs/lib/shallowEqual.js[22m 1.28 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [193] [1m./~/react/lib/ReactEventListener.js[22m 7.51 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [194] [1m./~/react/~/fbjs/lib/EventListener.js[22m 2.65 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [195] [1m./~/react/~/fbjs/lib/getUnboundedScrollPosition.js[22m 1.09 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [196] [1m./~/react/lib/ReactInjection.js[22m 1.37 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [197] [1m./~/react/lib/ReactClass.js[22m 27.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [198] [1m./~/react/lib/ReactComponent.js[22m 5.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [199] [1m./~/react/lib/ReactNoopUpdateQueue.js[22m 3.94 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [200] [1m./~/react/lib/ReactReconcileTransaction.js[22m 4.58 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [201] [1m./~/react/lib/ReactInputSelection.js[22m 4.32 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [202] [1m./~/react/lib/ReactDOMSelection.js[22m 6.83 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [203] [1m./~/react/lib/getNodeForCharacterOffset.js[22m 1.66 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [204] [1m./~/react/~/fbjs/lib/getActiveElement.js[22m 924 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [205] [1m./~/react/lib/SelectEventPlugin.js[22m 6.71 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [206] [1m./~/react/lib/ServerReactRootIndex.js[22m 868 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [207] [1m./~/react/lib/SimpleEventPlugin.js[22m 17.4 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [208] [1m./~/react/lib/SyntheticClipboardEvent.js[22m 1.23 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [209] [1m./~/react/lib/SyntheticFocusEvent.js[22m 1.12 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [210] [1m./~/react/lib/SyntheticKeyboardEvent.js[22m 2.76 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [211] [1m./~/react/lib/getEventCharCode.js[22m 1.56 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [212] [1m./~/react/lib/getEventKey.js[22m 2.93 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [213] [1m./~/react/lib/SyntheticDragEvent.js[22m 1.13 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [214] [1m./~/react/lib/SyntheticTouchEvent.js[22m 1.33 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [215] [1m./~/react/lib/SyntheticWheelEvent.js[22m 1.99 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [216] [1m./~/react/lib/SVGDOMPropertyConfig.js[22m 3.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [217] [1m./~/react/lib/ReactDefaultPerf.js[22m 8.63 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [218] [1m./~/react/lib/ReactDefaultPerfAnalysis.js[22m 5.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [219] [1m./~/react/~/fbjs/lib/performanceNow.js[22m 844 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [220] [1m./~/react/~/fbjs/lib/performance.js[22m 612 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [221] [1m./~/react/lib/ReactVersion.js[22m 379 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [222] [1m./~/react/lib/renderSubtreeIntoContainer.js[22m 463 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [223] [1m./~/react/lib/ReactDOMServer.js[22m 766 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [224] [1m./~/react/lib/ReactServerRendering.js[22m 3.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [225] [1m./~/react/lib/ReactServerBatchingStrategy.js[22m 673 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [226] [1m./~/react/lib/ReactServerRenderingTransaction.js[22m 2.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [227] [1m./~/react/lib/ReactIsomorphic.js[22m 2.05 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [228] [1m./~/react/lib/ReactDOMFactories.js[22m 3.36 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [229] [1m./~/react/lib/ReactElementValidator.js[22m 10.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [230] [1m./~/react/~/fbjs/lib/mapObject.js[22m 1.47 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [231] [1m./~/react/lib/onlyChild.js[22m 1.21 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [232] [1m./~/react/lib/deprecated.js[22m 1.77 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [233] [1m./~/two-way-rest/dist/index.js[22m 2.19 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [234] [1m./~/two-way-rest/dist/components.js[22m 16.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [235] [1m./~/react-dom/index.js[22m 63 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [236] [1m./~/react-router/lib/index.js[22m 3.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [237] [1m./~/react-router/lib/Router.js[22m 7.6 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [238] [1m./~/react-router/~/history/lib/createHashHistory.js[22m 7.45 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [239] [1m./~/react-router/~/warning/browser.js[22m 1.81 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [240] [1m./~/react-router/~/invariant/browser.js[22m 1.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [241] [1m./~/react-router/~/history/lib/Actions.js[22m 720 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [242] [1m./~/react-router/~/history/lib/PathUtils.js[22m 1.2 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [243] [1m./~/react-router/~/history/lib/ExecutionEnvironment.js[22m 175 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [244] [1m./~/react-router/~/history/lib/DOMUtils.js[22m 2.3 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [245] [1m./~/react-router/~/history/lib/DOMStateStorage.js[22m 2.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [246] [1m./~/react-router/~/history/lib/createDOMHistory.js[22m 1.29 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [247] [1m./~/react-router/~/history/lib/createHistory.js[22m 8.43 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [248] [1m./~/react-router/~/history/~/deep-equal/index.js[22m 3.05 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [249] [1m./~/react-router/~/history/~/deep-equal/lib/keys.js[22m 202 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [250] [1m./~/react-router/~/history/~/deep-equal/lib/is_arguments.js[22m 641 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [251] [1m./~/react-router/~/history/lib/AsyncUtils.js[22m 1.07 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [252] [1m./~/react-router/~/history/lib/createLocation.js[22m 1.75 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [253] [1m./~/react-router/~/history/lib/runTransitionHook.js[22m 775 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [254] [1m./~/react-router/~/history/lib/deprecate.js[22m 509 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [255] [1m./~/react-router/~/history/lib/useQueries.js[22m 5.99 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [256] [1m./~/react-router/~/history/~/query-string/index.js[22m 1.48 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [257] [1m./~/react-router/~/history/~/query-string/~/strict-uri-encode/index.js[22m 182 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [258] [1m./~/react-router/lib/createTransitionManager.js[22m 10 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [259] [1m./~/react-router/lib/routerWarning.js[22m 674 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [260] [1m./~/react-router/lib/computeChangedRoutes.js[22m 1.94 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [261] [1m./~/react-router/lib/PatternUtils.js[22m 6.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [262] [1m./~/react-router/lib/TransitionUtils.js[22m 2.49 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [263] [1m./~/react-router/lib/AsyncUtils.js[22m 1.68 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [264] [1m./~/react-router/lib/isActive.js[22m 3.18 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [265] [1m./~/react-router/lib/getComponents.js[22m 971 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [266] [1m./~/react-router/lib/matchRoutes.js[22m 6.46 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [267] [1m./~/react-router/lib/RouteUtils.js[22m 3.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [268] [1m./~/react-router/lib/PropTypes.js[22m 1.32 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [269] [1m./~/react-router/lib/RouterContext.js[22m 4.95 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [270] [1m./~/react-router/lib/deprecateObjectProperties.js[22m 1.45 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [271] [1m./~/react-router/lib/getRouteParams.js[22m 578 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [272] [1m./~/react-router/lib/RouterUtils.js[22m 1.26 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [273] [1m./~/react-router/lib/Link.js[22m 5.1 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [274] [1m./~/react-router/lib/IndexLink.js[22m 924 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [275] [1m./~/react-router/lib/IndexRedirect.js[22m 1.85 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [276] [1m./~/react-router/lib/Redirect.js[22m 2.92 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [277] [1m./~/react-router/lib/IndexRoute.js[22m 1.75 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [278] [1m./~/react-router/lib/Route.js[22m 1.68 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [279] [1m./~/react-router/lib/History.js[22m 841 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [280] [1m./~/react-router/lib/Lifecycle.js[22m 2.74 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [281] [1m./~/react-router/lib/RouteContext.js[22m 1.23 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [282] [1m./~/react-router/lib/useRoutes.js[22m 2.12 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [283] [1m./~/react-router/lib/RoutingContext.js[22m 1.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [284] [1m./~/react-router/lib/match.js[22m 3.15 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [285] [1m./~/react-router/lib/createMemoryHistory.js[22m 1.24 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [286] [1m./~/react-router/~/history/lib/useBasename.js[22m 4.27 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [287] [1m./~/react-router/~/history/lib/createMemoryHistory.js[22m 4.31 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [288] [1m./~/react-router/lib/useRouterHistory.js[22m 755 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [289] [1m./~/react-router/lib/browserHistory.js[22m 596 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [290] [1m./~/react-router/~/history/lib/createBrowserHistory.js[22m 5.22 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [291] [1m./~/react-router/lib/createRouterHistory.js[22m 579 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [292] [1m./~/react-router/lib/hashHistory.js[22m 581 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [293] [1m./~/react-redux/lib/index.js[22m 475 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [294] [1m./~/react-redux/lib/components/Provider.js[22m 2.94 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [295] [1m./~/react-redux/lib/utils/storeShape.js[22m 262 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [296] [1m./~/react-redux/lib/components/connect.js[22m 12.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [297] [1m./~/react-redux/lib/utils/shallowEqual.js[22m 543 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [298] [1m./~/react-redux/lib/utils/wrapActionCreators.js[22m 268 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [299] [1m./~/redux/lib/index.js[22m 1.94 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [300] [1m./~/redux/lib/createStore.js[22m 7.68 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [301] [1m./~/redux/~/lodash/isPlainObject.js[22m 1.85 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [302] [1m./~/redux/~/lodash/_getPrototype.js[22m 405 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [303] [1m./~/redux/~/lodash/_isHostObject.js[22m 552 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [304] [1m./~/redux/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [305] [1m./~/redux/lib/combineReducers.js[22m 5.53 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [306] [1m./~/redux/lib/utils/warning.js[22m 665 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [307] [1m./~/redux/lib/bindActionCreators.js[22m 2.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [308] [1m./~/redux/lib/applyMiddleware.js[22m 2.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [309] [1m./~/redux/lib/compose.js[22m 987 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [310] [1m./~/react-redux/~/lodash/isPlainObject.js[22m 1.85 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [311] [1m./~/react-redux/~/lodash/_getPrototype.js[22m 405 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [312] [1m./~/react-redux/~/lodash/_isHostObject.js[22m 552 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [313] [1m./~/react-redux/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [314] [1m./~/react-redux/~/hoist-non-react-statics/index.js[22m 921 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [315] [1m./~/react-redux/~/invariant/browser.js[22m 1.52 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [316] [1m./~/immutable/dist/immutable.js[22m 143 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [317] [1m./~/two-way-rest/dist/creators.js[22m 7.34 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [318] [1m./~/two-way-rest/dist/fetch.js[22m 2.43 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [319] [1m./~/two-way-rest/~/promise/index.js[22m 49 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [320] [1m./~/two-way-rest/~/promise/lib/index.js[22m 195 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [321] [1m./~/two-way-rest/~/promise/lib/core.js[22m 4.83 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [322] [1m./~/two-way-rest/~/promise/~/asap/browser-raw.js[22m 9.53 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [323] [1m./~/two-way-rest/~/promise/lib/done.js[22m 314 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [324] [1m./~/two-way-rest/~/promise/lib/finally.js[22m 348 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [325] [1m./~/two-way-rest/~/promise/lib/es6-extensions.js[22m 2.67 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [326] [1m./~/two-way-rest/~/promise/lib/node-extensions.js[22m 3.27 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [327] [1m./~/two-way-rest/~/promise/~/asap/browser-asap.js[22m 2.18 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [328] [1m./~/two-way-rest/~/promise/lib/synchronous.js[22m 1.4 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [329] [1m./~/methods/index.js[22m 1.04 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [331] [1m./~/bluebird/js/browser/bluebird.js[22m 171 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [332] [1m(webpack)/~/node-libs-browser/~/process/browser.js[22m 2.06 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [333] [1m(webpack)/~/node-libs-browser/~/timers-browserify/main.js[22m 2.1 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [334] [1m./~/two-way-rest/~/superagent-promise/index.js[22m 2.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [335] [1m./~/two-way-rest/~/superagent/lib/client.js[22m 23.8 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [336] [1m./~/two-way-rest/~/superagent/~/component-emitter/index.js[22m 2.98 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [337] [1m./~/two-way-rest/~/superagent/~/reduce-component/index.js[22m 405 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [338] [1m./~/two-way-rest/~/superagent/lib/request-base.js[22m 2.98 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [339] [1m./~/two-way-rest/~/superagent/lib/is-object.js[22m 207 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [340] [1m./~/two-way-rest/~/superagent/lib/request.js[22m 739 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [341] [1m./~/two-way-rest/dist/componentHelpers.js[22m 3.88 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [342] [1m./~/react-router-redux/lib/index.js[22m 1.97 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [343] [1m./~/react-router-redux/lib/reducer.js[22m 1.27 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [344] [1m./~/react-router-redux/lib/actions.js[22m 1.26 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [345] [1m./~/react-router-redux/lib/sync.js[22m 5.41 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [346] [1m./~/react-router-redux/lib/middleware.js[22m 1.02 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [347] [1m./~/two-way-rest/~/i/lib/inflect.js[22m 173 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [348] [1m./~/two-way-rest/~/i/lib/methods.js[22m 8.92 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [349] [1m./~/two-way-rest/~/i/lib/util.js[22m 4.62 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [350] [1m./~/two-way-rest/~/i/lib/inflections.js[22m 5.29 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [351] [1m./~/two-way-rest/~/i/lib/defaults.js[22m 2.74 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [352] [1m./~/two-way-rest/~/i/lib/native.js[22m 995 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [353] [1m./~/two-way-rest/~/form-data/lib/browser.js[22m 52 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [354] [1m./~/two-way-rest/dist/actions.js[22m 2.79 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [355] [1m./~/two-way-rest/dist/creatorsHelpers.js[22m 7.01 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [356] [1m./~/two-way-rest/dist/componentProperties.js[22m 18.4 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [357] [1m./~/two-way-rest/dist/reducers.js[22m 2.25 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [358] [1m./~/two-way-rest/dist/core.js[22m 5.86 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
-  [359] [1m./~/two-way-rest/dist/mapState.js[22m 8.98 kB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+   [13] [1m(webpack)-dev-server/client?http://localhost:3333[22m 2.67 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [14] [1m(webpack)/~/node-libs-browser/~/url/url.js[22m 22.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [15] [1m(webpack)/~/node-libs-browser/~/url/~/punycode/punycode.js[22m 14.6 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [16] [1m(webpack)/buildin/module.js[22m 251 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [17] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/index.js[22m 127 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [18] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/decode.js[22m 2.4 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [19] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/encode.js[22m 2.09 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [20] [1m(webpack)-dev-server/~/sockjs-client/lib/entry.js[22m 244 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [21] [1m(webpack)-dev-server/~/sockjs-client/lib/transport-list.js[22m 613 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [22] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/websocket.js[22m 2.68 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [23] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/event.js[22m 2 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [24] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/random.js[22m 746 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [25] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser-crypto.js[22m 438 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [26] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/url.js[22m 975 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [27] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/index.js[22m 8.09 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [28] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/requires-port/index.js[22m 753 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [29] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/lolcation.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [30] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/querystringify/index.js[22m 1.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [31] [1m(webpack)-dev-server/~/sockjs-client/~/debug/browser.js[22m 3.76 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [32] [1m(webpack)-dev-server/~/sockjs-client/~/debug/debug.js[22m 4.1 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [33] [1m(webpack)-dev-server/~/sockjs-client/~/debug/~/ms/index.js[22m 2.33 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [34] [1m(webpack)-dev-server/~/sockjs-client/~/inherits/inherits_browser.js[22m 672 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [35] [1m(webpack)-dev-server/~/sockjs-client/lib/event/emitter.js[22m 1.11 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [36] [1m(webpack)-dev-server/~/sockjs-client/lib/event/eventtarget.js[22m 1.75 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [37] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/websocket.js[22m 58 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [38] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-streaming.js[22m 1.25 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [39] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/ajax-based.js[22m 1.31 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [40] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/sender-receiver.js[22m 1.15 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [41] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/buffered-sender.js[22m 2.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [42] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/polling.js[22m 1.32 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [43] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/xhr.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [44] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-cors.js[22m 343 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [45] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/abstract-xhr.js[22m 4.67 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [46] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-local.js[22m 352 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [47] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser.js[22m 560 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [48] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-streaming.js[22m 984 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [49] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xdr.js[22m 2.42 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [50] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/eventsource.js[22m 766 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [51] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/eventsource.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [52] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/eventsource.js[22m 37 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [53] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/iframe-wrap.js[22m 981 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [54] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/iframe.js[22m 3.8 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [55] [1m(webpack)-dev-server/~/sockjs-client/~/json3/lib/json3.js[22m 43.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [56] [1m(webpack)/buildin/amd-options.js[22m 43 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [57] [1m(webpack)-dev-server/~/sockjs-client/lib/version.js[22m 25 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [58] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/iframe.js[22m 4.95 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [59] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/object.js[22m 532 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [60] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/htmlfile.js[22m 710 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [61] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/htmlfile.js[22m 2.17 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [62] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-polling.js[22m 894 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [63] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-polling.js[22m 712 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [64] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/jsonp-polling.js[22m 1.02 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [65] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/jsonp.js[22m 5.49 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [66] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/jsonp.js[22m 2.46 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [67] [1m(webpack)-dev-server/~/sockjs-client/lib/main.js[22m 11.9 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [68] [1m(webpack)-dev-server/~/sockjs-client/lib/shims.js[22m 18.2 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [69] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/escape.js[22m 2.31 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [70] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/transport.js[22m 1.35 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [71] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/log.js[22m 386 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [72] [1m(webpack)-dev-server/~/sockjs-client/lib/event/event.js[22m 485 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [73] [1m(webpack)-dev-server/~/sockjs-client/lib/location.js[22m 177 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [74] [1m(webpack)-dev-server/~/sockjs-client/lib/event/close.js[22m 295 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [75] [1m(webpack)-dev-server/~/sockjs-client/lib/event/trans-message.js[22m 292 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [76] [1m(webpack)-dev-server/~/sockjs-client/lib/info-receiver.js[22m 2.22 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [77] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-fake.js[22m 456 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [78] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe.js[22m 1.52 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [79] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe-receiver.js[22m 791 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [80] [1m(webpack)-dev-server/~/sockjs-client/lib/info-ajax.js[22m 1.03 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [81] [1m(webpack)-dev-server/~/sockjs-client/lib/iframe-bootstrap.js[22m 2.9 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [82] [1m(webpack)-dev-server/~/sockjs-client/lib/facade.js[22m 723 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [83] [1m(webpack)-dev-server/~/strip-ansi/index.js[22m 161 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [84] [1m(webpack)-dev-server/~/strip-ansi/~/ansi-regex/index.js[22m 135 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [85] [1m(webpack)/hot/dev-server.js[22m 1.85 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [86] [1m(webpack)/hot/log-apply-result.js[22m 813 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [87] [1m./client/index.html[22m 56 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
+    [0] [1mmulti jsx[22m 52 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [13] [1m(webpack)-dev-server/client?http://localhost:3333[22m 2.67 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [14] [1m(webpack)/~/node-libs-browser/~/url/url.js[22m 22.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [15] [1m(webpack)/~/node-libs-browser/~/url/~/punycode/punycode.js[22m 14.6 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [16] [1m(webpack)/buildin/module.js[22m 251 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [17] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/index.js[22m 127 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [18] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/decode.js[22m 2.4 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [19] [1m(webpack)/~/node-libs-browser/~/url/~/querystring/encode.js[22m 2.09 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [20] [1m(webpack)-dev-server/~/sockjs-client/lib/entry.js[22m 244 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [21] [1m(webpack)-dev-server/~/sockjs-client/lib/transport-list.js[22m 613 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [22] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/websocket.js[22m 2.68 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [23] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/event.js[22m 2 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [24] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/random.js[22m 746 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [25] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser-crypto.js[22m 438 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [26] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/url.js[22m 975 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [27] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/index.js[22m 8.09 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [28] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/requires-port/index.js[22m 753 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [29] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/lolcation.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [30] [1m(webpack)-dev-server/~/sockjs-client/~/url-parse/~/querystringify/index.js[22m 1.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [31] [1m(webpack)-dev-server/~/sockjs-client/~/debug/browser.js[22m 3.76 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [32] [1m(webpack)-dev-server/~/sockjs-client/~/debug/debug.js[22m 4.1 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [33] [1m(webpack)-dev-server/~/sockjs-client/~/debug/~/ms/index.js[22m 2.33 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [34] [1m(webpack)-dev-server/~/sockjs-client/~/inherits/inherits_browser.js[22m 672 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [35] [1m(webpack)-dev-server/~/sockjs-client/lib/event/emitter.js[22m 1.11 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [36] [1m(webpack)-dev-server/~/sockjs-client/lib/event/eventtarget.js[22m 1.75 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [37] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/websocket.js[22m 58 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [38] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-streaming.js[22m 1.25 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [39] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/ajax-based.js[22m 1.31 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [40] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/sender-receiver.js[22m 1.15 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [41] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/buffered-sender.js[22m 2.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [42] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/polling.js[22m 1.32 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [43] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/xhr.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [44] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-cors.js[22m 343 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [45] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/abstract-xhr.js[22m 4.67 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [46] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-local.js[22m 352 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [47] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/browser.js[22m 560 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [48] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-streaming.js[22m 984 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [49] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xdr.js[22m 2.42 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [50] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/eventsource.js[22m 766 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [51] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/eventsource.js[22m 1.58 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [52] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/browser/eventsource.js[22m 37 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [53] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/lib/iframe-wrap.js[22m 981 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [54] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/iframe.js[22m 3.8 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [55] [1m(webpack)-dev-server/~/sockjs-client/~/json3/lib/json3.js[22m 43.3 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [56] [1m(webpack)/buildin/amd-options.js[22m 43 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [57] [1m(webpack)-dev-server/~/sockjs-client/lib/version.js[22m 25 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [58] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/iframe.js[22m 4.95 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [59] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/object.js[22m 532 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [60] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/htmlfile.js[22m 710 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [61] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/htmlfile.js[22m 2.17 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [62] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xhr-polling.js[22m 894 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [63] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/xdr-polling.js[22m 712 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [64] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/jsonp-polling.js[22m 1.02 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [65] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/receiver/jsonp.js[22m 5.49 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [66] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/jsonp.js[22m 2.46 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [67] [1m(webpack)-dev-server/~/sockjs-client/lib/main.js[22m 11.9 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [68] [1m(webpack)-dev-server/~/sockjs-client/lib/shims.js[22m 18.2 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [69] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/escape.js[22m 2.31 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [70] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/transport.js[22m 1.35 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [71] [1m(webpack)-dev-server/~/sockjs-client/lib/utils/log.js[22m 386 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [72] [1m(webpack)-dev-server/~/sockjs-client/lib/event/event.js[22m 485 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [73] [1m(webpack)-dev-server/~/sockjs-client/lib/location.js[22m 177 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [74] [1m(webpack)-dev-server/~/sockjs-client/lib/event/close.js[22m 295 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [75] [1m(webpack)-dev-server/~/sockjs-client/lib/event/trans-message.js[22m 292 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [76] [1m(webpack)-dev-server/~/sockjs-client/lib/info-receiver.js[22m 2.22 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [77] [1m(webpack)-dev-server/~/sockjs-client/lib/transport/sender/xhr-fake.js[22m 456 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [78] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe.js[22m 1.52 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [79] [1m(webpack)-dev-server/~/sockjs-client/lib/info-iframe-receiver.js[22m 791 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [80] [1m(webpack)-dev-server/~/sockjs-client/lib/info-ajax.js[22m 1.03 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [81] [1m(webpack)-dev-server/~/sockjs-client/lib/iframe-bootstrap.js[22m 2.9 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [82] [1m(webpack)-dev-server/~/sockjs-client/lib/facade.js[22m 723 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [83] [1m(webpack)-dev-server/~/strip-ansi/index.js[22m 161 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [84] [1m(webpack)-dev-server/~/strip-ansi/~/ansi-regex/index.js[22m 135 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [85] [1m(webpack)/hot/dev-server.js[22m 1.85 kB {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [86] [1m(webpack)/hot/log-apply-result.js[22m 813 bytes {[1m[33m0[39m[22m} {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [88] [1m./client/index.js[22m 600 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [89] [1m./~/react-dom/index.js[22m 63 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [90] [1m./~/react/lib/ReactDOM.js[22m 3.71 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [91] [1m./~/react/lib/ReactCurrentOwner.js[22m 653 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [92] [1m./~/react/lib/ReactDOMTextComponent.js[22m 4.32 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [93] [1m./~/react/lib/DOMChildrenOperations.js[22m 5 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [94] [1m./~/react/lib/Danger.js[22m 6.96 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [95] [1m./~/react/~/fbjs/lib/ExecutionEnvironment.js[22m 1.09 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [96] [1m./~/react/~/fbjs/lib/createNodesFromMarkup.js[22m 2.71 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [97] [1m./~/react/~/fbjs/lib/createArrayFromMixed.js[22m 2.36 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [98] [1m./~/react/~/fbjs/lib/toArray.js[22m 1.98 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+   [99] [1m./~/react/~/fbjs/lib/invariant.js[22m 1.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [100] [1m./~/react/~/fbjs/lib/getMarkupWrap.js[22m 3.06 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [101] [1m./~/react/~/fbjs/lib/emptyFunction.js[22m 1.09 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [102] [1m./~/react/lib/ReactMultiChildUpdateTypes.js[22m 861 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [103] [1m./~/react/~/fbjs/lib/keyMirror.js[22m 1.27 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [104] [1m./~/react/lib/ReactPerf.js[22m 2.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [105] [1m./~/react/lib/setInnerHTML.js[22m 3.35 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [106] [1m./~/react/lib/setTextContent.js[22m 1.2 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [107] [1m./~/react/lib/escapeTextContentForBrowser.js[22m 849 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [108] [1m./~/react/lib/DOMPropertyOperations.js[22m 7.88 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [109] [1m./~/react/lib/DOMProperty.js[22m 9.57 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [110] [1m./~/react/lib/quoteAttributeValueForBrowser.js[22m 746 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [111] [1m./~/react/~/fbjs/lib/warning.js[22m 1.77 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [112] [1m./~/react/lib/ReactComponentBrowserEnvironment.js[22m 1.26 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [113] [1m./~/react/lib/ReactDOMIDOperations.js[22m 3.29 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [114] [1m./~/react/lib/ReactMount.js[22m 36.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [115] [1m./~/react/lib/ReactBrowserEventEmitter.js[22m 12.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [116] [1m./~/react/lib/EventConstants.js[22m 2.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [117] [1m./~/react/lib/EventPluginHub.js[22m 9.22 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [118] [1m./~/react/lib/EventPluginRegistry.js[22m 8.41 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [119] [1m./~/react/lib/EventPluginUtils.js[22m 6.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [120] [1m./~/react/lib/ReactErrorUtils.js[22m 2.27 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [121] [1m./~/react/lib/accumulateInto.js[22m 1.74 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [122] [1m./~/react/lib/forEachAccumulated.js[22m 893 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [123] [1m./~/react/lib/ReactEventEmitterMixin.js[22m 1.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [124] [1m./~/react/lib/ViewportMetrics.js[22m 638 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [125] [1m./~/react/lib/Object.assign.js[22m 1.26 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [126] [1m./~/react/lib/isEventSupported.js[22m 1.97 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [127] [1m./~/react/lib/ReactDOMFeatureFlags.js[22m 458 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [128] [1m./~/react/lib/ReactElement.js[22m 8.07 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [129] [1m./~/react/lib/canDefineProperty.js[22m 629 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [130] [1m./~/react/lib/ReactEmptyComponentRegistry.js[22m 1.38 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [131] [1m./~/react/lib/ReactInstanceHandles.js[22m 10.6 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [132] [1m./~/react/lib/ReactRootIndex.js[22m 723 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [133] [1m./~/react/lib/ReactInstanceMap.js[22m 1.25 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [134] [1m./~/react/lib/ReactMarkupChecksum.js[22m 1.39 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [135] [1m./~/react/lib/adler32.js[22m 1.2 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [136] [1m./~/react/lib/ReactReconciler.js[22m 3.55 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [137] [1m./~/react/lib/ReactRef.js[22m 2.34 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [138] [1m./~/react/lib/ReactOwner.js[22m 3.45 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [139] [1m./~/react/lib/ReactUpdateQueue.js[22m 10.9 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [140] [1m./~/react/lib/ReactUpdates.js[22m 8.54 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [141] [1m./~/react/lib/CallbackQueue.js[22m 2.44 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [142] [1m./~/react/lib/PooledClass.js[22m 3.55 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [143] [1m./~/react/lib/Transaction.js[22m 9.55 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [144] [1m./~/react/~/fbjs/lib/emptyObject.js[22m 482 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [145] [1m./~/react/~/fbjs/lib/containsNode.js[22m 1.43 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [146] [1m./~/react/~/fbjs/lib/isTextNode.js[22m 628 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [147] [1m./~/react/~/fbjs/lib/isNode.js[22m 712 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [148] [1m./~/react/lib/instantiateReactComponent.js[22m 4.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [149] [1m./~/react/lib/ReactCompositeComponent.js[22m 27.5 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [150] [1m./~/react/lib/ReactComponentEnvironment.js[22m 1.67 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [151] [1m./~/react/lib/ReactPropTypeLocations.js[22m 549 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [152] [1m./~/react/lib/ReactPropTypeLocationNames.js[22m 611 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [153] [1m./~/react/lib/shouldUpdateReactComponent.js[22m 1.49 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [154] [1m./~/react/lib/ReactEmptyComponent.js[22m 1.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [155] [1m./~/react/lib/ReactNativeComponent.js[22m 3.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [156] [1m./~/react/lib/validateDOMNesting.js[22m 13.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [157] [1m./~/react/lib/ReactDefaultInjection.js[22m 3.99 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [158] [1m./~/react/lib/BeforeInputEventPlugin.js[22m 14.9 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [159] [1m./~/react/lib/EventPropagators.js[22m 5.22 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [160] [1m./~/react/lib/FallbackCompositionState.js[22m 2.49 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [161] [1m./~/react/lib/getTextContentAccessor.js[22m 994 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [162] [1m./~/react/lib/SyntheticCompositionEvent.js[22m 1.16 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [163] [1m./~/react/lib/SyntheticEvent.js[22m 5.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [164] [1m./~/react/lib/SyntheticInputEvent.js[22m 1.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [165] [1m./~/react/~/fbjs/lib/keyOf.js[22m 1.11 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [166] [1m./~/react/lib/ChangeEventPlugin.js[22m 11.5 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [167] [1m./~/react/lib/getEventTarget.js[22m 930 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [168] [1m./~/react/lib/isTextInputElement.js[22m 1.03 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [169] [1m./~/react/lib/ClientReactRootIndex.js[22m 551 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [170] [1m./~/react/lib/DefaultEventPluginOrder.js[22m 1.26 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [171] [1m./~/react/lib/EnterLeaveEventPlugin.js[22m 3.9 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [172] [1m./~/react/lib/SyntheticMouseEvent.js[22m 2.2 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [173] [1m./~/react/lib/SyntheticUIEvent.js[22m 1.64 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [174] [1m./~/react/lib/getEventModifierState.js[22m 1.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [175] [1m./~/react/lib/HTMLDOMPropertyConfig.js[22m 7.63 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [176] [1m./~/react/lib/ReactBrowserComponentMixin.js[22m 1.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [177] [1m./~/react/lib/findDOMNode.js[22m 2.17 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [178] [1m./~/react/lib/ReactDefaultBatchingStrategy.js[22m 1.92 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [179] [1m./~/react/lib/ReactDOMComponent.js[22m 36.9 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [180] [1m./~/react/lib/AutoFocusUtils.js[22m 816 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [181] [1m./~/react/~/fbjs/lib/focusNode.js[22m 725 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [182] [1m./~/react/lib/CSSPropertyOperations.js[22m 5.71 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [183] [1m./~/react/lib/CSSProperty.js[22m 3.5 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [184] [1m./~/react/~/fbjs/lib/camelizeStyleName.js[22m 1.03 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [185] [1m./~/react/~/fbjs/lib/camelize.js[22m 729 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [186] [1m./~/react/lib/dangerousStyleValue.js[22m 1.93 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [187] [1m./~/react/~/fbjs/lib/hyphenateStyleName.js[22m 1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [188] [1m./~/react/~/fbjs/lib/hyphenate.js[22m 822 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [189] [1m./~/react/~/fbjs/lib/memoizeStringOnly.js[22m 778 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [190] [1m./~/react/lib/ReactDOMButton.js[22m 1.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [191] [1m./~/react/lib/ReactDOMInput.js[22m 5.74 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [192] [1m./~/react/lib/LinkedValueUtils.js[22m 5.18 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [193] [1m./~/react/lib/ReactPropTypes.js[22m 12.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [194] [1m./~/react/lib/getIteratorFn.js[22m 1.17 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [195] [1m./~/react/lib/ReactDOMOption.js[22m 2.82 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [196] [1m./~/react/lib/ReactChildren.js[22m 5.83 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [197] [1m./~/react/lib/traverseAllChildren.js[22m 6.9 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [198] [1m./~/react/lib/ReactDOMSelect.js[22m 6.11 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [199] [1m./~/react/lib/ReactDOMTextarea.js[22m 4.35 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [200] [1m./~/react/lib/ReactMultiChild.js[22m 14.7 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [201] [1m./~/react/lib/ReactChildReconciler.js[22m 4.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [202] [1m./~/react/lib/flattenChildren.js[22m 1.65 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [203] [1m./~/react/~/fbjs/lib/shallowEqual.js[22m 1.28 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [204] [1m./~/react/lib/ReactEventListener.js[22m 7.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [205] [1m./~/react/~/fbjs/lib/EventListener.js[22m 2.65 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [206] [1m./~/react/~/fbjs/lib/getUnboundedScrollPosition.js[22m 1.09 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [207] [1m./~/react/lib/ReactInjection.js[22m 1.37 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [208] [1m./~/react/lib/ReactClass.js[22m 27.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [209] [1m./~/react/lib/ReactComponent.js[22m 5.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [210] [1m./~/react/lib/ReactNoopUpdateQueue.js[22m 3.94 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [211] [1m./~/react/lib/ReactReconcileTransaction.js[22m 4.58 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [212] [1m./~/react/lib/ReactInputSelection.js[22m 4.32 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [213] [1m./~/react/lib/ReactDOMSelection.js[22m 6.83 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [214] [1m./~/react/lib/getNodeForCharacterOffset.js[22m 1.66 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [215] [1m./~/react/~/fbjs/lib/getActiveElement.js[22m 924 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [216] [1m./~/react/lib/SelectEventPlugin.js[22m 6.71 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [217] [1m./~/react/lib/ServerReactRootIndex.js[22m 868 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [218] [1m./~/react/lib/SimpleEventPlugin.js[22m 17.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [219] [1m./~/react/lib/SyntheticClipboardEvent.js[22m 1.23 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [220] [1m./~/react/lib/SyntheticFocusEvent.js[22m 1.12 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [221] [1m./~/react/lib/SyntheticKeyboardEvent.js[22m 2.76 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [222] [1m./~/react/lib/getEventCharCode.js[22m 1.56 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [223] [1m./~/react/lib/getEventKey.js[22m 2.93 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [224] [1m./~/react/lib/SyntheticDragEvent.js[22m 1.13 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [225] [1m./~/react/lib/SyntheticTouchEvent.js[22m 1.33 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [226] [1m./~/react/lib/SyntheticWheelEvent.js[22m 1.99 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [227] [1m./~/react/lib/SVGDOMPropertyConfig.js[22m 3.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [228] [1m./~/react/lib/ReactDefaultPerf.js[22m 8.63 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [229] [1m./~/react/lib/ReactDefaultPerfAnalysis.js[22m 5.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [230] [1m./~/react/~/fbjs/lib/performanceNow.js[22m 844 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [231] [1m./~/react/~/fbjs/lib/performance.js[22m 612 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [232] [1m./~/react/lib/ReactVersion.js[22m 379 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [233] [1m./~/react/lib/renderSubtreeIntoContainer.js[22m 463 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [234] [1m./~/react/react.js[22m 56 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [235] [1m./~/react/lib/React.js[22m 1.49 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [236] [1m./~/react/lib/ReactDOMServer.js[22m 766 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [237] [1m./~/react/lib/ReactServerRendering.js[22m 3.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [238] [1m./~/react/lib/ReactServerBatchingStrategy.js[22m 673 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [239] [1m./~/react/lib/ReactServerRenderingTransaction.js[22m 2.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [240] [1m./~/react/lib/ReactIsomorphic.js[22m 2.05 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [241] [1m./~/react/lib/ReactDOMFactories.js[22m 3.36 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [242] [1m./~/react/lib/ReactElementValidator.js[22m 10.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [243] [1m./~/react/~/fbjs/lib/mapObject.js[22m 1.47 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [244] [1m./~/react/lib/onlyChild.js[22m 1.21 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [245] [1m./~/react/lib/deprecated.js[22m 1.77 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [246] [1m./client/App.js[22m 3.37 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [247] [1m./~/react-transform-hmr/lib/index.js[22m 3.69 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [248] [1m./~/react-transform-hmr/~/react-proxy/modules/index.js[22m 1.06 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [249] [1m./~/react-transform-hmr/~/react-proxy/modules/supportsProtoAssignment.js[22m 275 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [250] [1m./~/react-transform-hmr/~/react-proxy/modules/createClassProxy.js[22m 8.09 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [251] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/find.js[22m 1.64 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [252] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseEach.js[22m 455 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [253] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseForOwn.js[22m 456 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [254] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseFor.js[22m 593 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [255] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_createBaseFor.js[22m 648 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [256] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/keys.js[22m 1.39 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [257] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseHas.js[22m 857 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [258] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_getPrototype.js[22m 405 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [259] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseKeys.js[22m 475 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [260] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_indexKeys.js[22m 722 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [261] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseTimes.js[22m 504 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [262] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isArguments.js[22m 1.29 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [263] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isArrayLikeObject.js[22m 742 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [264] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isArrayLike.js[22m 875 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [265] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_getLength.js[22m 444 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [266] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseProperty.js[22m 351 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [267] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isFunction.js[22m 1.18 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [268] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isObject.js[22m 727 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [269] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isLength.js[22m 808 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [270] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [271] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isArray.js[22m 524 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [272] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isString.js[22m 969 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [273] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isIndex.js[22m 707 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [274] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isPrototype.js[22m 480 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [275] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_createBaseEach.js[22m 886 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [276] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseFind.js[22m 869 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [277] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseFindIndex.js[22m 690 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [278] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseIteratee.js[22m 895 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [279] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseMatches.js[22m 705 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [280] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseIsMatch.js[22m 1.76 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [281] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Stack.js[22m 780 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [282] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stackClear.js[22m 210 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [283] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stackDelete.js[22m 467 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [284] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assocDelete.js[22m 747 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [285] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assocIndexOf.js[22m 486 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [286] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/eq.js[22m 815 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [287] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stackGet.js[22m 392 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [288] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assocGet.js[22m 407 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [289] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stackHas.js[22m 444 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [290] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assocHas.js[22m 410 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [291] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stackSet.js[22m 786 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [292] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_MapCache.js[22m 772 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [293] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapClear.js[22m 321 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [294] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Hash.js[22m 413 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [295] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_nativeCreate.js[22m 187 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [296] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_getNative.js[22m 421 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [297] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isNative.js[22m 1.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [298] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isHostObject.js[22m 552 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [299] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_toSource.js[22m 484 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [300] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Map.js[22m 195 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [301] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_root.js[22m 1.31 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [302] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_checkGlobal.js[22m 307 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [303] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapDelete.js[22m 657 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [304] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_hashDelete.js[22m 397 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [305] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_hashHas.js[22m 614 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [306] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isKeyable.js[22m 402 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [307] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapGet.js[22m 573 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [308] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_hashGet.js[22m 762 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [309] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapHas.js[22m 625 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [310] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapSet.js[22m 683 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [311] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assocSet.js[22m 456 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [312] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_hashSet.js[22m 488 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [313] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseIsEqual.js[22m 1.13 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [314] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseIsEqualDeep.js[22m 3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [315] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_equalArrays.js[22m 2.35 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [316] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_arraySome.js[22m 572 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [317] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_equalByTag.js[22m 3.85 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [318] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Symbol.js[22m 118 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [319] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Uint8Array.js[22m 130 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [320] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_mapToArray.js[22m 352 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [321] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_setToArray.js[22m 340 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [322] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_equalObjects.js[22m 2.67 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [323] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_getTag.js[22m 2.14 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [324] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_DataView.js[22m 210 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [325] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Promise.js[22m 207 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [326] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_Set.js[22m 195 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [327] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_WeakMap.js[22m 207 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [328] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isTypedArray.js[22m 2.58 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [329] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_getMatchData.js[22m 523 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [330] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isStrictComparable.js[22m 414 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [331] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/toPairs.js[22m 688 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [332] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseToPairs.js[22m 550 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [333] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_arrayMap.js[22m 534 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [334] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_matchesStrictComparable.js[22m 569 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [335] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseMatchesProperty.js[22m 1.09 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [336] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/get.js[22m 880 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [337] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseGet.js[22m 632 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [338] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_castPath.js[22m 369 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [339] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_stringToPath.js[22m 764 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [340] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/memoize.js[22m 2.24 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [341] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/toString.js[22m 1.18 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [342] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/isSymbol.js[22m 928 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [343] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isKey.js[22m 817 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [344] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/hasIn.js[22m 753 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [345] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseHasIn.js[22m 354 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [346] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_hasPath.js[22m 1.13 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [347] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/identity.js[22m 365 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [348] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/property.js[22m 744 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [349] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_basePropertyDeep.js[22m 382 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [350] [1m./~/react-transform-hmr/~/react-proxy/modules/createPrototypeProxy.js[22m 5.72 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [351] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/assign.js[22m 1.83 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [352] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_assignValue.js[22m 830 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [353] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_copyObject.js[22m 470 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [354] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_copyObjectWith.js[22m 881 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [355] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_createAssigner.js[22m 1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [356] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isIterateeCall.js[22m 877 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [357] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/rest.js[22m 1.94 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [358] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_apply.js[22m 737 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [359] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/toInteger.js[22m 1.05 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [360] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/toNumber.js[22m 1.6 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [361] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/difference.js[22m 977 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [362] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseDifference.js[22m 1.86 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [363] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_SetCache.js[22m 508 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [364] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_cachePush.js[22m 575 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [365] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_arrayIncludes.js[22m 480 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [366] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseIndexOf.js[22m 677 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [367] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_indexOfNaN.js[22m 657 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [368] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_arrayIncludesWith.js[22m 592 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [369] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseUnary.js[22m 333 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [370] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_cacheHas.js[22m 658 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [371] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_baseFlatten.js[22m 1.2 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [372] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_arrayPush.js[22m 437 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [373] [1m./~/react-transform-hmr/~/react-proxy/~/lodash/_isFlattenable.js[22m 489 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [374] [1m./~/react-transform-hmr/~/react-proxy/modules/bindAutoBindMethods.js[22m 3.03 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [375] [1m./~/react-transform-hmr/~/react-proxy/modules/deleteUnknownAutoBindMethods.js[22m 2.63 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [376] [1m./~/react-transform-hmr/~/react-proxy/~/react-deep-force-update/lib/index.js[22m 1.29 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [377] [1m./~/react-transform-hmr/~/global/window.js[22m 243 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [378] [1m./~/react-router/lib/index.js[22m 3.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [379] [1m./~/react-router/lib/Router.js[22m 7.6 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [380] [1m./~/react-router/~/history/lib/createHashHistory.js[22m 7.45 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [381] [1m./~/react-router/~/warning/browser.js[22m 1.81 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [382] [1m./~/react-router/~/invariant/browser.js[22m 1.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [383] [1m./~/react-router/~/history/lib/Actions.js[22m 720 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [384] [1m./~/react-router/~/history/lib/PathUtils.js[22m 1.2 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [385] [1m./~/react-router/~/history/lib/ExecutionEnvironment.js[22m 175 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [386] [1m./~/react-router/~/history/lib/DOMUtils.js[22m 2.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [387] [1m./~/react-router/~/history/lib/DOMStateStorage.js[22m 2.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [388] [1m./~/react-router/~/history/lib/createDOMHistory.js[22m 1.29 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [389] [1m./~/react-router/~/history/lib/createHistory.js[22m 8.43 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [390] [1m./~/react-router/~/history/~/deep-equal/index.js[22m 3.05 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [391] [1m./~/react-router/~/history/~/deep-equal/lib/keys.js[22m 202 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [392] [1m./~/react-router/~/history/~/deep-equal/lib/is_arguments.js[22m 641 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [393] [1m./~/react-router/~/history/lib/AsyncUtils.js[22m 1.07 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [394] [1m./~/react-router/~/history/lib/createLocation.js[22m 1.75 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [395] [1m./~/react-router/~/history/lib/runTransitionHook.js[22m 775 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [396] [1m./~/react-router/~/history/lib/deprecate.js[22m 509 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [397] [1m./~/react-router/~/history/lib/useQueries.js[22m 5.99 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [398] [1m./~/react-router/~/history/~/query-string/index.js[22m 1.48 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [399] [1m./~/react-router/~/history/~/query-string/~/strict-uri-encode/index.js[22m 182 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [400] [1m./~/react-router/lib/createTransitionManager.js[22m 10 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [401] [1m./~/react-router/lib/routerWarning.js[22m 674 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [402] [1m./~/react-router/lib/computeChangedRoutes.js[22m 1.94 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [403] [1m./~/react-router/lib/PatternUtils.js[22m 6.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [404] [1m./~/react-router/lib/TransitionUtils.js[22m 2.49 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [405] [1m./~/react-router/lib/AsyncUtils.js[22m 1.68 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [406] [1m./~/react-router/lib/isActive.js[22m 3.18 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [407] [1m./~/react-router/lib/getComponents.js[22m 971 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [408] [1m./~/react-router/lib/matchRoutes.js[22m 6.46 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [409] [1m./~/react-router/lib/RouteUtils.js[22m 3.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [410] [1m./~/react-router/lib/PropTypes.js[22m 1.32 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [411] [1m./~/react-router/lib/RouterContext.js[22m 4.95 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [412] [1m./~/react-router/lib/deprecateObjectProperties.js[22m 1.45 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [413] [1m./~/react-router/lib/getRouteParams.js[22m 578 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [414] [1m./~/react-router/lib/RouterUtils.js[22m 1.26 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [415] [1m./~/react-router/lib/Link.js[22m 5.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [416] [1m./~/react-router/lib/IndexLink.js[22m 924 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [417] [1m./~/react-router/lib/IndexRedirect.js[22m 1.85 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [418] [1m./~/react-router/lib/Redirect.js[22m 2.92 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [419] [1m./~/react-router/lib/IndexRoute.js[22m 1.75 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [420] [1m./~/react-router/lib/Route.js[22m 1.68 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [421] [1m./~/react-router/lib/History.js[22m 841 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [422] [1m./~/react-router/lib/Lifecycle.js[22m 2.74 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [423] [1m./~/react-router/lib/RouteContext.js[22m 1.23 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [424] [1m./~/react-router/lib/useRoutes.js[22m 2.12 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [425] [1m./~/react-router/lib/RoutingContext.js[22m 1.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [426] [1m./~/react-router/lib/match.js[22m 3.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [427] [1m./~/react-router/lib/createMemoryHistory.js[22m 1.24 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [428] [1m./~/react-router/~/history/lib/useBasename.js[22m 4.27 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [429] [1m./~/react-router/~/history/lib/createMemoryHistory.js[22m 4.31 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [430] [1m./~/react-router/lib/useRouterHistory.js[22m 755 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [431] [1m./~/react-router/lib/browserHistory.js[22m 596 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [432] [1m./~/react-router/~/history/lib/createBrowserHistory.js[22m 5.22 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [433] [1m./~/react-router/lib/createRouterHistory.js[22m 579 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [434] [1m./~/react-router/lib/hashHistory.js[22m 581 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [435] [1m./~/react-redux/lib/index.js[22m 475 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [436] [1m./~/react-redux/lib/components/Provider.js[22m 2.94 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [437] [1m./~/react-redux/lib/utils/storeShape.js[22m 262 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [438] [1m./~/react-redux/lib/components/connect.js[22m 12.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [439] [1m./~/react-redux/lib/utils/shallowEqual.js[22m 543 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [440] [1m./~/react-redux/lib/utils/wrapActionCreators.js[22m 268 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [441] [1m./~/redux/lib/index.js[22m 1.94 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [442] [1m./~/redux/lib/createStore.js[22m 7.68 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [443] [1m./~/redux/~/lodash/isPlainObject.js[22m 1.85 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [444] [1m./~/redux/~/lodash/_getPrototype.js[22m 405 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [445] [1m./~/redux/~/lodash/_isHostObject.js[22m 552 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [446] [1m./~/redux/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [447] [1m./~/redux/lib/combineReducers.js[22m 5.53 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [448] [1m./~/redux/lib/utils/warning.js[22m 665 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [449] [1m./~/redux/lib/bindActionCreators.js[22m 2.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [450] [1m./~/redux/lib/applyMiddleware.js[22m 2.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [451] [1m./~/redux/lib/compose.js[22m 987 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [452] [1m./~/react-redux/~/lodash/isPlainObject.js[22m 1.85 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [453] [1m./~/react-redux/~/lodash/_getPrototype.js[22m 405 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [454] [1m./~/react-redux/~/lodash/_isHostObject.js[22m 552 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [455] [1m./~/react-redux/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [456] [1m./~/react-redux/~/hoist-non-react-statics/index.js[22m 921 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [457] [1m./~/react-redux/~/invariant/browser.js[22m 1.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [458] [1m./client/store/index.js[22m 820 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [459] [1m./client/reducers/index.js[22m 367 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [460] [1m./client/reducers/todos.js[22m 266 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [461] [1m./~/two-way-rest/dist/index.js[22m 2.19 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [462] [1m./~/two-way-rest/dist/components.js[22m 16.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [463] [1m./~/immutable/dist/immutable.js[22m 143 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [464] [1m./~/two-way-rest/dist/creators.js[22m 7.34 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [465] [1m./~/two-way-rest/dist/fetch.js[22m 2.43 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [466] [1m./~/two-way-rest/~/promise/index.js[22m 49 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [467] [1m./~/two-way-rest/~/promise/lib/index.js[22m 195 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [468] [1m./~/two-way-rest/~/promise/lib/core.js[22m 4.83 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [469] [1m./~/two-way-rest/~/promise/~/asap/browser-raw.js[22m 9.53 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [470] [1m./~/two-way-rest/~/promise/lib/done.js[22m 314 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [471] [1m./~/two-way-rest/~/promise/lib/finally.js[22m 348 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [472] [1m./~/two-way-rest/~/promise/lib/es6-extensions.js[22m 2.67 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [473] [1m./~/two-way-rest/~/promise/lib/node-extensions.js[22m 3.27 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [474] [1m./~/two-way-rest/~/promise/~/asap/browser-asap.js[22m 2.18 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [475] [1m./~/two-way-rest/~/promise/lib/synchronous.js[22m 1.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [476] [1m./~/methods/index.js[22m 1.04 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [478] [1m./~/bluebird/js/browser/bluebird.js[22m 171 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [479] [1m(webpack)/~/node-libs-browser/~/process/browser.js[22m 2.06 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [480] [1m(webpack)/~/node-libs-browser/~/timers-browserify/main.js[22m 2.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [481] [1m./~/two-way-rest/~/superagent-promise/index.js[22m 2.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [482] [1m./~/two-way-rest/~/superagent/lib/client.js[22m 23.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [483] [1m./~/two-way-rest/~/superagent/~/component-emitter/index.js[22m 2.98 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [484] [1m./~/two-way-rest/~/superagent/~/reduce-component/index.js[22m 405 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [485] [1m./~/two-way-rest/~/superagent/lib/request-base.js[22m 2.98 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [486] [1m./~/two-way-rest/~/superagent/lib/is-object.js[22m 207 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [487] [1m./~/two-way-rest/~/superagent/lib/request.js[22m 739 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [488] [1m./~/two-way-rest/dist/componentHelpers.js[22m 3.88 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [489] [1m./~/react-router-redux/lib/index.js[22m 1.97 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [490] [1m./~/react-router-redux/lib/reducer.js[22m 1.27 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [491] [1m./~/react-router-redux/lib/actions.js[22m 1.26 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [492] [1m./~/react-router-redux/lib/sync.js[22m 5.41 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [493] [1m./~/react-router-redux/lib/middleware.js[22m 1.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [494] [1m./~/two-way-rest/~/i/lib/inflect.js[22m 173 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [495] [1m./~/two-way-rest/~/i/lib/methods.js[22m 8.92 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [496] [1m./~/two-way-rest/~/i/lib/util.js[22m 4.62 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [497] [1m./~/two-way-rest/~/i/lib/inflections.js[22m 5.29 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [498] [1m./~/two-way-rest/~/i/lib/defaults.js[22m 2.74 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [499] [1m./~/two-way-rest/~/i/lib/native.js[22m 995 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [500] [1m./~/two-way-rest/~/form-data/lib/browser.js[22m 52 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [501] [1m./~/two-way-rest/dist/actions.js[22m 2.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [502] [1m./~/two-way-rest/dist/creatorsHelpers.js[22m 7.01 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [503] [1m./~/two-way-rest/dist/componentProperties.js[22m 18.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [504] [1m./~/two-way-rest/dist/reducers.js[22m 2.25 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [505] [1m./~/two-way-rest/dist/core.js[22m 5.86 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [506] [1m./~/two-way-rest/dist/mapState.js[22m 8.98 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [507] [1m./client/App/index.js[22m 16.7 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [508] [1m./client/App/style.css[22m 1.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [510] [1m./~/css-loader/lib/css-base.js[22m 1.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [511] [1m./~/style-loader/addStyles.js[22m 7.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [512] [1m./~/classnames/index.js[22m 1.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [513] [1m./~/font-awesome/less/font-awesome.less[22m 978 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [514] [1m./~/css-loader!./~/less-loader!./~/font-awesome/less/font-awesome.less[22m 37.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [515] [1m./~/font-awesome/fonts/fontawesome-webfont.eot?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [516] [1m./~/font-awesome/fonts/fontawesome-webfont.eot[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [517] [1m./~/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0[22m 84 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [518] [1m./~/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0[22m 83 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [519] [1m./~/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [520] [1m./~/font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
      + 1 hidden modules
-
-[1m[31mERROR in ./client/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/index.js: Unexpected token (8:16)
-[0m   6 | [36mconst[39m rootEl [1m=[22m document[1m.[22mgetElementById[34m[1m([22m[39m[31m'root'[39m[34m[1m)[22m[39m
-   7 | 
->  8 | ReactDOM[1m.[22mrender[34m[1m([22m[39m[1m<[22mApp [1m/[22m[1m>[22m
-     |                 ^
-   9 |   [1m,[22m
-  10 |   rootEl
-  11 | [34m[1m)[22m[39m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExprListItem (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1206:16)
-    at Parser.pp.parseCallExpressionArguments (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:580:20)
- @ multi jsx[39m[22m
 webpack: bundle is now VALID.
 webpack: bundle is now INVALID.
-Hash: [1m82e0fb593871274b09a9[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m206[22mms
-        [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-    [1m[32mbundle.js[39m[22m  514 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32mbundle.js.map[39m[22m   86 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 52 bytes {[1m[33m2[39m[22m}
-     + 1 hidden modules
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB
-     + 358 hidden modules
-
-[1m[31mERROR in ./client/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/index.js: Unexpected token (8:16)
-[0m   6 | [36mconst[39m rootEl [1m=[22m document[1m.[22mgetElementById[34m[1m([22m[39m[31m'root'[39m[34m[1m)[22m[39m[1m;[22m
-   7 | 
->  8 | ReactDOM[1m.[22mrender[34m[1m([22m[39m[1m<[22mApp [1m/[22m[1m>[22m
-     |                 ^
-   9 |   [1m,[22m
-  10 |   rootEl
-  11 | [34m[1m)[22m[39m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExprListItem (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1206:16)
-    at Parser.pp.parseCallExpressionArguments (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:580:20)
- @ multi jsx[39m[22m
+Hash: [1m06fd7f28f496a73476cd[22m
+Version: webpack [1m1.12.15[22m
+Time: [1m2053[22mms
+                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+                               [1m[32mbundle.js[39m[22m   1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+    [1m[32m1.67bef3137e7e10e6c32e.hot-update.js[39m[22m   9.65 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+    [1m[32m67bef3137e7e10e6c32e.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+                           [1m[32mbundle.js.map[39m[22m   2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+[1m[32m1.67bef3137e7e10e6c32e.hot-update.js.map[39m[22m   12.8 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
+     + 76 hidden modules
+chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.67bef3137e7e10e6c32e.hot-update.js, bundle.js.map, 1.67bef3137e7e10e6c32e.hot-update.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
+  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+     + 507 hidden modules
 webpack: bundle is now VALID.
 webpack: bundle is now INVALID.
-Hash: [1m82e0fb593871274b09a9[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m264[22mms
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 52 bytes {[1m[33m2[39m[22m}
-     + 1 hidden modules
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB
-     + 358 hidden modules
-
-[1m[31mERROR in ./client/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/index.js: Unexpected token (8:16)
-[0m   6 | [36mconst[39m rootEl [1m=[22m document[1m.[22mgetElementById[34m[1m([22m[39m[31m'root'[39m[34m[1m)[22m[39m
-   7 | 
->  8 | ReactDOM[1m.[22mrender[34m[1m([22m[39m[1m<[22mApp [1m/[22m[1m>[22m
-     |                 ^
-   9 |   [1m,[22m
-  10 |   rootEl
-  11 | [34m[1m)[22m[39m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExprListItem (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1206:16)
-    at Parser.pp.parseCallExpressionArguments (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:580:20)
- @ multi jsx[39m[22m
-webpack: bundle is now VALID.
-webpack: bundle is now INVALID.
-Hash: [1m82e0fb593871274b09a9[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m280[22mms
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 52 bytes {[1m[33m2[39m[22m}
-     + 1 hidden modules
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB
-     + 358 hidden modules
-
-[1m[31mERROR in ./client/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/index.js: Unexpected token (21:20)
-[0m  19 |     [90m// Require the new version and render it instead[39m
-  20 |    [36mvar[39m NextApp [1m=[22m require[34m[1m([22m[39m[31m'./App'[39m[34m[1m)[22m[39m[1m.[22m[36mdefault[39m[34m[1m([22m[39mpreApp[1m,[22m store[34m[1m)[22m[39m[1m;[22m
-> 21 |     ReactDOM[1m.[22mrender[34m[1m([22m[39m[1m<[22mNextApp [1m/[22m[1m>[22m[1m,[22m rootEl[34m[1m)[22m[39m
-     |                     ^
-  22 |   [32m}[39m[34m[1m)[22m[39m
-  23 | [32m}[39m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExprListItem (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1206:16)
-    at Parser.pp.parseCallExpressionArguments (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:580:20)
- @ multi jsx[39m[22m
-webpack: bundle is now VALID.
-webpack: bundle is now INVALID.
-Hash: [1mb3a4f59a2a883b376509[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m1607[22mms
-                                   [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-                               [1m[32mbundle.js[39m[22m    1.82 kB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-                        [1m[32mvendor.bundle.js[39m[22m     1.7 MB       [1m2[22m  [1m[32m[emitted][39m[22m  vendor
-    [1m[32m1.82e0fb593871274b09a9.hot-update.js[39m[22m    1.85 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-    [1m[32m82e0fb593871274b09a9.hot-update.json[39m[22m   36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
-                           [1m[32mbundle.js.map[39m[22m  922 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32m1.82e0fb593871274b09a9.hot-update.js.map[39m[22m  901 bytes       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-                    [1m[32mvendor.bundle.js.map[39m[22m    1.94 MB       [1m2[22m  [1m[32m[emitted][39m[22m  vendor
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.82e0fb593871274b09a9.hot-update.js, bundle.js.map, 1.82e0fb593871274b09a9.hot-update.js.map[39m[22m (jsx) 932 bytes {[1m[33m2[39m[22m}[1m[32m [rendered][39m[22m
-   [76] [1m./client/index.js[22m 880 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m[1m[31m [2 errors][39m[22m
-     + 1 hidden modules
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB[1m[32m [rendered][39m[22m
-     + 358 hidden modules
-
-[1m[31mERROR in ./client/App.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/App.js: Unexpected token (15:5)
-[0m  13 | 			render[34m[1m([22m[39m[34m[1m)[22m[39m[32m{[39m
-  14 | 				[36mreturn[39m [34m[1m([22m[39m
-> 15 | 					[1m<[22mProvider store[1m=[22m[32m{[39m[36mthis[39m[1m.[22mprops[1m.[22mstore [1m?[22m [36mthis[39m[1m.[22mprops[1m.[22mstore[1m:[22m store[32m}[39m[1m>[22m
-     |      ^
-  16 | 					    [1m<[22mRouter history[1m=[22m[32m{[39mbrowserHistory[32m}[39m[1m>[22m
-  17 | 					      [1m<[22mRoute path[1m=[22m[31m"/"[39m component[1m=[22m[32m{[39mApp[32m}[39m[1m>[22m
-  18 | 					      [1m<[22m[1m/[22mRoute[1m>[22m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseParenAndDistinguishExpression (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:822:26)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:708:19)
- @ ./client/index.js 11:11-27[39m[22m
-
-[1m[31mERROR in ./client/App/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/App/index.js: Unexpected token (21:11)
-[0m  19 |   render[34m[1m([22m[39m[34m[1m)[22m[39m[32m{[39m
-  20 |     
-> 21 |     [36mreturn[39m [1m<[22mdiv[1m>[22m
-     |            ^
-  22 |           [1m<[22mh1 className[1m=[22m[32m{[39mstyle[1m.[22mtitle[32m}[39m[1m>[22mTodos[1m<[22m[1m/[22mh1[1m>[22m
-  23 |           [1m<[22mDeclareReducer reducer[1m=[22m[31m'todos'[39m[1m>[22m
-  24 |             [1m<[22mdiv className[1m=[22m[32m{[39mstyle[1m.[22mnormal[32m}[39m[1m>[22m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExpression (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:324:19)
-    at Parser.pp.parseReturnStatement (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2030:26)
- @ ./client/index.js 15:12-29[39m[22m
-webpack: bundle is now VALID.
-webpack: bundle is now INVALID.
-Hash: [1mb3a4f59a2a883b376509[22m
-Version: webpack [1m1.12.14[22m
-Time: [1m186[22mms
-        [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-    [1m[32mbundle.js[39m[22m   1.86 kB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32mbundle.js.map[39m[22m  86 bytes    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 108 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx) 932 bytes {[1m[33m2[39m[22m}
-     + 2 hidden modules
-chunk    {[1m[33m2[39m[22m} [1m[32mvendor.bundle.js, vendor.bundle.js.map[39m[22m (vendor) 1.53 MB
-     + 358 hidden modules
-
-[1m[31mERROR in ./client/App/index.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/App/index.js: Unexpected token (21:11)
-[0m  19 |   render[34m[1m([22m[39m[34m[1m)[22m[39m[32m{[39m
-  20 |     
-> 21 |     [36mreturn[39m [1m<[22mdiv[1m>[22m
-     |            ^
-  22 |           [1m<[22mh1 className[1m=[22m[32m{[39mstyle[1m.[22mtitle[32m}[39m[1m>[22mTodos[1m<[22m[1m/[22mh1[1m>[22m
-  23 |           [1m<[22mDeclareReducer reducer[1m=[22m[31m'todos'[39m[1m>[22m
-  24 |             [1m<[22mdiv className[1m=[22m[32m{[39mstyle[1m.[22mnormal[32m}[39m[1m>[22m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseExpression (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:324:19)
-    at Parser.pp.parseReturnStatement (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2030:26)
- @ ./client/index.js 15:12-29[39m[22m
-
-[1m[31mERROR in ./client/App.js
-Module build failed: SyntaxError: /Users/leigh/Documents/twrb/client/App.js: Unexpected token (15:5)
-[0m  13 | 			render[34m[1m([22m[39m[34m[1m)[22m[39m[32m{[39m
-  14 | 				[36mreturn[39m [34m[1m([22m[39m
-> 15 | 					[1m<[22mProvider store[1m=[22m[32m{[39m[36mthis[39m[1m.[22mprops[1m.[22mstore [1m?[22m [36mthis[39m[1m.[22mprops[1m.[22mstore[1m:[22m store[32m}[39m[1m>[22m
-     |      ^
-  16 | 					    [1m<[22mRouter history[1m=[22m[32m{[39mbrowserHistory[32m}[39m[1m>[22m
-  17 | 					      [1m<[22mRoute path[1m=[22m[31m"/"[39m component[1m=[22m[32m{[39mApp[32m}[39m[1m>[22m
-  18 | 					      [1m<[22m[1m/[22mRoute[1m>[22m[0m
-    at Parser.pp.raise (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:1378:13)
-    at Parser.pp.unexpected (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:2817:8)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:749:12)
-    at Parser.pp.parseExprSubscripts (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:504:19)
-    at Parser.pp.parseMaybeUnary (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:484:19)
-    at Parser.pp.parseExprOps (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:415:19)
-    at Parser.pp.parseMaybeConditional (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:397:19)
-    at Parser.pp.parseMaybeAssign (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:360:19)
-    at Parser.pp.parseParenAndDistinguishExpression (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:822:26)
-    at Parser.pp.parseExprAtom (/Users/leigh/Documents/twrb/node_modules/babel-core/node_modules/babylon/index.js:708:19)
- @ ./client/index.js 11:11-27[39m[22m
+Hash: [1mc446be5bc2d431bfc915[22m
+Version: webpack [1m1.12.15[22m
+Time: [1m1541[22mms
+                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+                               [1m[32mbundle.js[39m[22m   1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+    [1m[32m1.06fd7f28f496a73476cd.hot-update.js[39m[22m   9.65 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+    [1m[32m06fd7f28f496a73476cd.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+                           [1m[32mbundle.js.map[39m[22m   2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+[1m[32m1.06fd7f28f496a73476cd.hot-update.js.map[39m[22m   12.8 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
+     + 76 hidden modules
+chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.06fd7f28f496a73476cd.hot-update.js, bundle.js.map, 1.06fd7f28f496a73476cd.hot-update.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
+  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+     + 507 hidden modules
 webpack: bundle is now VALID.

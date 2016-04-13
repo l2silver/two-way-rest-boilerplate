@@ -5,14 +5,13 @@ import configure from './store'
 import {setAddress, setStore} from 'two-way-rest';
 
 setAddress('http://localhost:8888');
-
 const store = configure()
-//setStore(store)
-function generateWebsite(App, store){
+setStore(store)
+function generateWebsite(App){
 	return class Website extends Component {
 			render(){
 				return (
-					<Provider store={this.props.store ? this.props.store: store}>
+					<Provider store={store}>
 					    <Router history={browserHistory}>
 					      <Route path="/" component={App}>
 					      </Route>
@@ -24,12 +23,6 @@ function generateWebsite(App, store){
 }
 
 
-export default function(App, oldStore){
-	if(oldStore){
-		return generateWebsite(App, oldStore);
-	}
-	return generateWebsite(App, store)
-
+export default function(App){
+	return generateWebsite(App)
 }
-
-export const oldStore = store;

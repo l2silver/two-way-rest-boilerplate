@@ -9,8 +9,7 @@ module.exports = {
   context: path.join(__dirname, './client'),
   entry: {
     jsx: entryFile,
-    html: './index.html',
-    vendor: ['react', 'two-way-rest', 'redux', 'immutable']
+    html: './index.html'
   },
   output: {
     path: path.join(__dirname, './static'),
@@ -48,7 +47,9 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        loader: "babel"
+        loaders: [
+          'babel-loader?cacheDirectory'
+        ]
       },
       {
         test: /\.less$/,
@@ -66,7 +67,6 @@ module.exports = {
     })
   ],
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development') }
     })
