@@ -19,7 +19,7 @@ $ npm start
 ## Running Frontend and Backend
 
 ```
-$ npm run startS && npm run start:2
+$ npm run start:server && npm run start:webpack
 ```
 # License
 
