@@ -84,7 +84,7 @@ class Page extends Component{
                             {});
                             filter.submitContent({
                             tasks: completedToDos
-                          })}} style={{'margin-left': '40px', cursor: 'pointer'}}>Complete All</div>
+                          })}} style={{'marginLeft': '40px', cursor: 'pointer'}}>Complete All</div>
                         <div onClick={()=>{filter.custom(
                             (state)=>{
                               const completedTasks = todoList.gex('tasks') 
@@ -96,7 +96,7 @@ class Page extends Component{
                               console.log('deletedState', deletedState.toJS())
                               return deletedState.asImmutable();
                             }
-                          )}} style={{'margin-left': '40px', cursor: 'pointer'}}>Clear Completed</div>
+                          )}} style={{'marginLeft': '40px', cursor: 'pointer'}}>Clear Completed</div>
                         </div>
                       </div>
                     }} />

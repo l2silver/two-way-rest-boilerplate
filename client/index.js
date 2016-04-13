@@ -5,6 +5,7 @@ import preApp from './App/'
 const App = genApp(preApp);
 const rootEl = document.getElementById('root')
 
+/*
 ReactDOM.render(<App />
   ,
   rootEl
@@ -20,3 +21,4 @@ if (module.hot) {
     ReactDOM.render(<NextApp />, rootEl)
   })
 }
+*/

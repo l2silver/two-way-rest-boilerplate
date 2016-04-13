@@ -10,7 +10,7 @@ module.exports = {
   entry: {
     jsx: entryFile,
     html: './index.html',
-    vendor: ['react', 'two-way-rest', 'redux', 'redux-thunk', 'immutable']
+    vendor: ['react', 'two-way-rest', 'redux', 'immutable']
   },
   output: {
     path: path.join(__dirname, './static'),
@@ -48,9 +48,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        loaders: [
-          'babel-loader'
-        ]
+        loader: "babel"
       },
       {
         test: /\.less$/,
