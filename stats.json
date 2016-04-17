@@ -2,9 +2,9 @@ http://localhost:3333/
 webpack result is served from /
 content is served from ./client
 404s will fallback to /index.html
-Hash: [1m67bef3137e7e10e6c32e[22m
+Hash: [1m773d99ac43e3c0281783[22m
 Version: webpack [1m1.12.15[22m
-Time: [1m9680[22mms
+Time: [1m10024[22mms
                                  [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
                             [1m[32mindex.html[39m[22m  879 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
   [1m[32m32400f4e08932a94d8bfd2422702c446.eot[39m[22m    70.8 kB        [1m[22m  [1m[32m[emitted][39m[22m  
@@ -12,7 +12,7 @@ Time: [1m9680[22mms
  [1m[32ma35720c2fed2c7f043bc7e4ffb45e073.woff[39m[22m    83.6 kB        [1m[22m  [1m[32m[emitted][39m[22m  
   [1m[32ma3de2170e4e9df77161ea5d3f31b2668.ttf[39m[22m     142 kB        [1m[22m  [1m[32m[emitted][39m[22m  
   [1m[32mf775f9cca88e21d45bebe185b27c0e5b.svg[39m[22m     366 kB        [1m[22m  [1m[32m[emitted][39m[22m  
-                             [1m[32mbundle.js[39m[22m    1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+                             [1m[32mbundle.js[39m[22m    1.97 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
                          [1m[32mbundle.js.map[39m[22m    2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
 chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
     [0] [1mmulti html[22m 52 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
@@ -537,13 +537,13 @@ chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx
   [455] [1m./~/react-redux/~/lodash/isObjectLike.js[22m 608 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [456] [1m./~/react-redux/~/hoist-non-react-statics/index.js[22m 921 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [457] [1m./~/react-redux/~/invariant/browser.js[22m 1.52 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [458] [1m./client/store/index.js[22m 820 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [458] [1m./client/store/index.js[22m 924 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [459] [1m./client/reducers/index.js[22m 367 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [460] [1m./client/reducers/todos.js[22m 266 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [461] [1m./~/two-way-rest/dist/index.js[22m 2.19 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [462] [1m./~/two-way-rest/dist/components.js[22m 16.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [462] [1m./~/two-way-rest/dist/components.js[22m 15.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [463] [1m./~/immutable/dist/immutable.js[22m 143 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [464] [1m./~/two-way-rest/dist/creators.js[22m 7.34 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [464] [1m./~/two-way-rest/dist/creators.js[22m 6.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [465] [1m./~/two-way-rest/dist/fetch.js[22m 2.43 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [466] [1m./~/two-way-rest/~/promise/index.js[22m 49 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [467] [1m./~/two-way-rest/~/promise/lib/index.js[22m 195 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
@@ -580,56 +580,25 @@ chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx
   [499] [1m./~/two-way-rest/~/i/lib/native.js[22m 995 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [500] [1m./~/two-way-rest/~/form-data/lib/browser.js[22m 52 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [501] [1m./~/two-way-rest/dist/actions.js[22m 2.79 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [502] [1m./~/two-way-rest/dist/creatorsHelpers.js[22m 7.01 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [503] [1m./~/two-way-rest/dist/componentProperties.js[22m 18.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [504] [1m./~/two-way-rest/dist/reducers.js[22m 2.25 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [505] [1m./~/two-way-rest/dist/core.js[22m 5.86 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [506] [1m./~/two-way-rest/dist/mapState.js[22m 8.98 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [507] [1m./client/App/index.js[22m 16.7 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [508] [1m./client/App/style.css[22m 1.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [510] [1m./~/css-loader/lib/css-base.js[22m 1.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [511] [1m./~/style-loader/addStyles.js[22m 7.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [512] [1m./~/classnames/index.js[22m 1.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [513] [1m./~/font-awesome/less/font-awesome.less[22m 978 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [514] [1m./~/css-loader!./~/less-loader!./~/font-awesome/less/font-awesome.less[22m 37.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [515] [1m./~/font-awesome/fonts/fontawesome-webfont.eot?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [516] [1m./~/font-awesome/fonts/fontawesome-webfont.eot[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [517] [1m./~/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0[22m 84 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [518] [1m./~/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0[22m 83 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [519] [1m./~/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [520] [1m./~/font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [502] [1m./~/two-way-rest/dist/creatorsHelpers.js[22m 7.43 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [503] [1m./~/redux-batched-actions/lib/index.js[22m 536 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [504] [1m./~/two-way-rest/dist/componentProperties.js[22m 24 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [505] [1m./~/two-way-rest/dist/reducers.js[22m 2.25 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [506] [1m./~/two-way-rest/dist/core.js[22m 5.86 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [507] [1m./~/two-way-rest/dist/mapState.js[22m 6.01 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [508] [1m./client/App/index.js[22m 16.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [509] [1m./client/App/style.css[22m 1.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [510] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [511] [1m./~/css-loader/lib/css-base.js[22m 1.51 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [512] [1m./~/style-loader/addStyles.js[22m 7.15 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [513] [1m./~/classnames/index.js[22m 1.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [514] [1m./~/font-awesome/less/font-awesome.less[22m 978 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [515] [1m./~/css-loader!./~/less-loader!./~/font-awesome/less/font-awesome.less[22m 37.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [516] [1m./~/font-awesome/fonts/fontawesome-webfont.eot?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [517] [1m./~/font-awesome/fonts/fontawesome-webfont.eot[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [518] [1m./~/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0[22m 84 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [519] [1m./~/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0[22m 83 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [520] [1m./~/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [521] [1m./~/font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
      + 1 hidden modules
-webpack: bundle is now VALID.
-webpack: bundle is now INVALID.
-Hash: [1m06fd7f28f496a73476cd[22m
-Version: webpack [1m1.12.15[22m
-Time: [1m2053[22mms
-                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-                               [1m[32mbundle.js[39m[22m   1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-    [1m[32m1.67bef3137e7e10e6c32e.hot-update.js[39m[22m   9.65 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-    [1m[32m67bef3137e7e10e6c32e.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
-                           [1m[32mbundle.js.map[39m[22m   2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32m1.67bef3137e7e10e6c32e.hot-update.js.map[39m[22m   12.8 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
-     + 76 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.67bef3137e7e10e6c32e.hot-update.js, bundle.js.map, 1.67bef3137e7e10e6c32e.hot-update.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
-  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-     + 507 hidden modules
-webpack: bundle is now VALID.
-webpack: bundle is now INVALID.
-Hash: [1mc446be5bc2d431bfc915[22m
-Version: webpack [1m1.12.15[22m
-Time: [1m1541[22mms
-                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-                               [1m[32mbundle.js[39m[22m   1.96 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-    [1m[32m1.06fd7f28f496a73476cd.hot-update.js[39m[22m   9.65 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-    [1m[32m06fd7f28f496a73476cd.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
-                           [1m[32mbundle.js.map[39m[22m   2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
-[1m[32m1.06fd7f28f496a73476cd.hot-update.js.map[39m[22m   12.8 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
-chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
-     + 76 hidden modules
-chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.06fd7f28f496a73476cd.hot-update.js, bundle.js.map, 1.06fd7f28f496a73476cd.hot-update.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
-  [509] [1m./~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./client/App/style.css[22m 9.02 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-     + 507 hidden modules
 webpack: bundle is now VALID.

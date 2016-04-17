@@ -23,13 +23,13 @@ class Page extends Component{
           <DeclareReducer reducer='todos'>
             <div className={style.normal}>
               <div className={style.todoListMenu}>
-                <TWRCreate tree={['todo_lists']} className={style.createTodoList}>
+                <TWRCreate tree='todo_lists' className={style.createTodoList}>
                   <input type='text' name='name' defaultValue='New Todo List' />
                   <button>Create</button>
                 </TWRCreate>
                 
-                <TWRCreateFront tree={['selectLists']} id='1' replace={(selectList)=>{
-                  return <TWRIndex tree={['todo_lists']} replace={(todoLists)=>{
+                <TWRCreateFront tree='selectLists' id='1' replace={(selectList)=>{
+                  return <TWRIndex tree='todo_lists' replace={(todoLists)=>{
                     return <ul style={{position: 'relative'}}>
                     {mapIf(todoLists.instance(), (todoList)=>{
                       
@@ -45,7 +45,7 @@ class Page extends Component{
 
                             }
                             return  <TWRUpdateFront instance={todoList} replace={(updateTodoListFront)=>{
-                              return <p onClick={()=>selectList.submitContent({todoListId: todoList.gex('id')})} 
+                              return <p onClick={()=>selectList.submitContent({todoListId: todoList.get('id')})} 
                               onDoubleClick={()=>updateTodoListFront.submitContent({toggleEdit: true})}>{todoList.get('name')}
                             </p>
                             }} />
@@ -61,11 +61,11 @@ class Page extends Component{
               }} />
             </div>
             <div className={style.displayTodoList}>
-              <TWRShowFront forceUpdate='true' tree={['selectLists', '1']} replace={(selectedList)=>{
+              <TWRShowFront forceUpdate='true' tree='selectLists/1' replace={(selectedList)=>{
                 
-                return <TWRShowFront forceUpdate='true' tree={['todo_lists', selectedList.instance().get('todoListId').toString()]} replace={(selectedTodoList)=>{
+                return <TWRShowFront forceUpdate='true' tree={'todo_lists/'+selectedList.instance().get('todoListId')} replace={(selectedTodoList)=>{
                   const todoList = selectedTodoList.instance();
-                  
+                  const tasks = selectedTodoList.gex('tasks', todoList)
                   return <div>
                   
                     {
@@ -88,15 +88,16 @@ class Page extends Component{
                     
                     }
               
-                    <h2>{todoList.gex('name')}</h2>
+                    <h2>{todoList.get('name')}</h2>
                     <TWRCreateChild instance={todoList} childName='tasks' content={{name: 'New Task'}}>
                       <button>Create</button>
                     </TWRCreateChild>
                     {
-                      todoList.gex('tasks') ? 
+                      
+                      tasks ? 
                       
                       <ul>
-                        {mapIf(todoList.gex('tasks').filter(this.filter(todoList.get('filterType'))), (task)=>{
+                        {mapIf(tasks.filter(this.filter(todoList.get('filterType'))), (task)=>{
                           return <li>
                             <div  className={style.destroy} >
                               <TWRDestroyFront tag='button' instance={task} noPrompt='true' />
@@ -149,12 +150,6 @@ class Page extends Component{
       </div>
   }
 }
-
-/*
-
-
-*/
-
 
 function mapStateToProps(state) {
   console.log('State', state.todos.toJS())

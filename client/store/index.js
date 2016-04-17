@@ -1,6 +1,7 @@
 
 import { createStore, applyMiddleware } from 'redux'
 import rootReducer from '../reducers'
+import {enableBatching} from 'redux-batched-actions'
 export default function configure(initialState) {
   const create = window.devToolsExtension
     ? window.devToolsExtension()(createStore)
@@ -9,7 +10,7 @@ export default function configure(initialState) {
   const createStoreWithMiddleware = applyMiddleware(
   )(create)
 
-  const store = createStoreWithMiddleware(rootReducer, initialState)
+  const store = createStoreWithMiddleware(enableBatching(rootReducer), initialState)
 
   if (module.hot) {
     module.hot.accept('../reducers', () => {

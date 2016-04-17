@@ -17,24 +17,27 @@ class Page extends Component{
     return x => x.get('id')
   }
   render(){
-    
     return <div>
           <h1 className={style.title}>Todos</h1>
           <DeclareReducer reducer='todos'>
             <div className={style.normal}>
               <div className={style.todoListMenu}>
-                <TWRCreateFront tree={['todo_lists']} className={style.createTodoList}>
+                <TWRCreateFront tree='todo_lists' className={style.createTodoList}>
                   <input type='text' name='name' defaultValue='New Todo List' />
                   <button>Create</button>
                 </TWRCreateFront>
                 
-                <TWRCreateFront tree={['selectLists']} id='1' replace={(selectList)=>{
-                  return <TWRIndexFront tree={['todo_lists']} replace={(todoLists)=>{
+                <TWRCreateFront tree='selectLists' id='1' replace={(selectList)=>{
+                  return <TWRIndexFront selectList={selectList} tree='todo_lists' replace={(todoLists)=>{
                     return <ul style={{position: 'relative'}}>
                     {mapIf(todoLists.instance(), (todoList)=>{
                       
                       return <li><div className={style.flexbox}>
-                          <TWRUpdateFront instance={todoList} content={{toggleEdit: false}} replace={(updateTodoList)=>{
+                          <TWRUpdateFront 
+                          selectList={todoLists.props.selectList}
+                          instance={todoList} 
+                          content={{toggleEdit: false}} 
+                          replace={(updateTodoList)=>{
                             if(todoList.get('toggleEdit')){
                               
                               return <div className={style.content}><form>
@@ -44,7 +47,7 @@ class Page extends Component{
                                     </div>
 
                             }
-                            return <p onClick={()=>selectList.submitContent({todoListId: todoList.gex('id')})} 
+                            return <p onClick={()=>updateTodoList.props.selectList.submitContent({todoListId: todoList.get('id')})} 
                             onDoubleClick={()=>updateTodoList.submitContent({toggleEdit: true})}>{todoList.get('name')}</p>
               
                           }} />
@@ -61,24 +64,25 @@ class Page extends Component{
               }} />
             </div>
             <div className={style.displayTodoList}>
-              <TWRShowFront tree={['selectLists', '1']} replace={(selectedList)=>{
-                
-                return <TWRShowFront tree={['todo_lists', selectedList.instance().get('todoListId')]} replace={(selectedTodoList)=>{
+              <TWRShowFront tree='selectLists/1' replace={(selectedList)=>{
+              
+                return <TWRShowFront tree={'todo_lists/'+selectedList.instance().get('todoListId')} replace={(selectedTodoList)=>{
                   const todoList = selectedTodoList.instance();
                   return <div>
                   {
                     
                     <TWRUpdateFront instance={todoList} replace={(filter)=>{
+              
                       return <div>
                         <label>All<input onClick={()=>filter.submitContent({filterType: ''})} defaultChecked={todoList.get('filterType') == ''} type='radio' name='filterType' value='' /></label>
                         <label>Completed<input onClick={()=>filter.submitContent({filterType: 'completed'})} defaultChecked={todoList.get('filterType') == 'completed'} type='radio' name='filterType' value='completed' /></label>
                         <label>To Do<input onClick={()=>filter.submitContent({filterType: 'todo'})} defaultChecked={todoList.get('filterType') == 'todo'} type='radio' name='filterType' value='todo' /></label>
                         <div style={{display: 'block'}}>
                           <div onClick={()=>{
-                            const completedToDos = (todoList.gex('tasks') ? 
-                            todoList.gex('tasks')
+                            const completedToDos = (filter.gex('tasks', todoList) ? 
+                            filter.gex('tasks', todoList)
                             .toSeq()
-                            .map((i)=>i.set('completed', 1).delete('tree').delete('_globeTWR').toJS())
+                            .map((i)=>i.set('completed', 1).delete('tree'))
                             .toArray()
                             :
                             {});
@@ -87,13 +91,12 @@ class Page extends Component{
                           })}} style={{'marginLeft': '40px', cursor: 'pointer'}}>Complete All</div>
                         <div onClick={()=>{filter.custom(
                             (state)=>{
-                              const completedTasks = todoList.gex('tasks') 
-                              ? todoList.gex('tasks').toSeq().filter(v=>v.get('completed')).toArray()
+                              const completedTasks = filter.gex('tasks', todoList)
+                              ? filter.gex('tasks', todoList).toSeq().filter(v=>v.get('completed')).toArray()
                               : [];
                               const deletedState = completedTasks.reduce((previousState, completedTask)=>{
                                 return previousState.deleteIn(['tasks', completedTask.get('id').toString()])
                               }, state.asMutable());
-                              console.log('deletedState', deletedState.toJS())
                               return deletedState.asImmutable();
                             }
                           )}} style={{'marginLeft': '40px', cursor: 'pointer'}}>Clear Completed</div>
@@ -106,15 +109,15 @@ class Page extends Component{
                   }
                     
                     
-                    <h2>{todoList.gex('name')}</h2>
+                    <h2>{todoList.get('name')}</h2>
                     <TWRCreateChildFront instance={todoList} childName='tasks' content={{name: 'New Task'}}>
                       <button>Create</button>
                     </TWRCreateChildFront>
                     {
-                      todoList.gex('tasks') ? 
+                      selectedTodoList.gex('tasks', todoList) ? 
                       
                       <ul>
-                        {mapIf(todoList.gex('tasks').filter(this.filter(todoList.get('filterType'))), (task)=>{
+                        {mapIf(selectedTodoList.gex('tasks', todoList).filter(this.filter(todoList.get('filterType'))), (task)=>{
                           return <li>
                             <TWRDestroyFront instance={task} noPrompt='true'  className={style.destroy}>
                               
