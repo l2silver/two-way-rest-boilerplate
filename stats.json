@@ -2,9 +2,9 @@ http://localhost:3333/
 webpack result is served from /
 content is served from ./client
 404s will fallback to /index.html
-Hash: [1m773d99ac43e3c0281783[22m
+Hash: [1m6e2dfdbfcb539c387b15[22m
 Version: webpack [1m1.12.15[22m
-Time: [1m10024[22mms
+Time: [1m37704[22mms
                                  [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
                             [1m[32mindex.html[39m[22m  879 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
   [1m[32m32400f4e08932a94d8bfd2422702c446.eot[39m[22m    70.8 kB        [1m[22m  [1m[32m[emitted][39m[22m  
@@ -325,7 +325,7 @@ chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx
   [243] [1m./~/react/~/fbjs/lib/mapObject.js[22m 1.47 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [244] [1m./~/react/lib/onlyChild.js[22m 1.21 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [245] [1m./~/react/lib/deprecated.js[22m 1.77 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
-  [246] [1m./client/App.js[22m 3.37 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [246] [1m./client/App.js[22m 3.34 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [247] [1m./~/react-transform-hmr/lib/index.js[22m 3.69 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [248] [1m./~/react-transform-hmr/~/react-proxy/modules/index.js[22m 1.06 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [249] [1m./~/react-transform-hmr/~/react-proxy/modules/supportsProtoAssignment.js[22m 275 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
@@ -601,4 +601,49 @@ chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (jsx
   [520] [1m./~/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
   [521] [1m./~/font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
      + 1 hidden modules
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.
+Hash: [1m82c3c5315ef4a45c8d08[22m
+Version: webpack [1m1.12.15[22m
+Time: [1m1960[22mms
+                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+                               [1m[32mbundle.js[39m[22m   1.91 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+    [1m[32m1.6e2dfdbfcb539c387b15.hot-update.js[39m[22m   3.88 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+    [1m[32m6e2dfdbfcb539c387b15.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+                           [1m[32mbundle.js.map[39m[22m   2.24 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+[1m[32m1.6e2dfdbfcb539c387b15.hot-update.js.map[39m[22m   1.31 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
+     + 76 hidden modules
+chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.6e2dfdbfcb539c387b15.hot-update.js, bundle.js.map, 1.6e2dfdbfcb539c387b15.hot-update.js.map[39m[22m (jsx) 1.69 MB[1m[32m [rendered][39m[22m
+  [508] [1m./client/App/index.js[22m 3.3 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+     + 499 hidden modules
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.
+Hash: [1maa69cb9e5009743c2e3c[22m
+Version: webpack [1m1.12.15[22m
+Time: [1m3614[22mms
+                                   [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+    [1m[32m32400f4e08932a94d8bfd2422702c446.eot[39m[22m   70.8 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+  [1m[32mdb812d8a70a4e88e888744c1c9a27e89.woff2[39m[22m   66.6 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+   [1m[32ma35720c2fed2c7f043bc7e4ffb45e073.woff[39m[22m   83.6 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+    [1m[32ma3de2170e4e9df77161ea5d3f31b2668.ttf[39m[22m    142 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+    [1m[32mf775f9cca88e21d45bebe185b27c0e5b.svg[39m[22m    366 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+                               [1m[32mbundle.js[39m[22m   1.97 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+    [1m[32m1.82c3c5315ef4a45c8d08.hot-update.js[39m[22m   60.5 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+    [1m[32m82c3c5315ef4a45c8d08.hot-update.json[39m[22m  36 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+                           [1m[32mbundle.js.map[39m[22m   2.31 MB    [1m0, 1[22m  [1m[32m[emitted][39m[22m  html, jsx
+[1m[32m1.82c3c5315ef4a45c8d08.hot-update.js.map[39m[22m   74.8 kB       [1m1[22m  [1m[32m[emitted][39m[22m  jsx
+chunk    {[1m[33m0[39m[22m} [1m[32mbundle.js, bundle.js.map[39m[22m (html) 213 kB[1m[32m [rendered][39m[22m
+     + 76 hidden modules
+chunk    {[1m[33m1[39m[22m} [1m[32mbundle.js, 1.82c3c5315ef4a45c8d08.hot-update.js, bundle.js.map, 1.82c3c5315ef4a45c8d08.hot-update.js.map[39m[22m (jsx) 1.74 MB[1m[32m [rendered][39m[22m
+  [508] [1m./client/App/index.js[22m 16.8 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [513] [1m./~/classnames/index.js[22m 1.1 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [515] [1m./~/css-loader!./~/less-loader!./~/font-awesome/less/font-awesome.less[22m 37.4 kB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [516] [1m./~/font-awesome/fonts/fontawesome-webfont.eot?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [517] [1m./~/font-awesome/fonts/fontawesome-webfont.eot[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [518] [1m./~/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0[22m 84 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [519] [1m./~/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0[22m 83 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [520] [1m./~/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+  [521] [1m./~/font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0[22m 82 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+     + 500 hidden modules
 webpack: bundle is now VALID.

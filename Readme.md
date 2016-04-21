@@ -13,13 +13,13 @@ $ npm install
 ## Running Frontend
 
 ```
-$ npm start
+$ npm start (localhost:3333)
 ```
 
 ## Running Frontend and Backend
 
 ```
-$ npm run start:server && npm run start:webpack
+$ npm run start:server && npm run start:webpack (localhost:3333 & localhost:8888)
 ```
 # License
 

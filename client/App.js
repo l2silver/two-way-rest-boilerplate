@@ -7,7 +7,7 @@ import {setAddress, setStore} from 'two-way-rest';
 setAddress('http://localhost:8888');
 const store = configure()
 setStore(store)
-function generateWebsite(App){
+export default function generateWebsite(App){
 	return class Website extends Component {
 			render(){
 				return (
@@ -20,9 +20,4 @@ function generateWebsite(App){
 					)
 			}
 		} 
-}
-
-
-export default function(App){
-	return generateWebsite(App)
 }
